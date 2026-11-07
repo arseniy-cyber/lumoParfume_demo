@@ -186,3 +186,98 @@ button svg,a svg{flex-shrink:0}
 @media(max-width:580px){
   .v8-story-photo{align-items:flex-start!important;padding-top:145px!important;padding-bottom:105px!important}
 }
+
+
+/* Lumo Parfum v13 — GitHub Pages two-file mobile hotfix (07 Nov 2026) */
+/* Editorial story is a DARK panel: the former global h2 rule made it almost invisible. */
+.story-section-v6{color:#f2e7dc!important;}
+.story-section-v6 .story-intro-v6 h2,
+.story-section-v6 .story-intro-v6 h2 i,
+.story-section-v6 .story-intro-v6 h2 em{color:#f2e1d0!important;opacity:1;}
+.story-section-v6 .story-intro-v6>p:not(.eyebrow){color:#e5d0bd!important;}
+.story-section-v6 .story-intro-v6>.eyebrow{color:#d0a995!important;}
+.story-section-v6 .v6-source{color:#e9d4bd!important;}
+.story-section-v6 .story-aside-v7 p{color:#ecdac6!important;}
+/* One consistent centering rule for every clickable arrow, plus and close control. */
+.icon-button,.card-quick,.close-round,.search-close,
+.qty-control button,.remove-row,.brand-focus-navigation button,
+.brand-focus-navigation > a .lumo-inline-arrow,
+.v10-gallery-thumb,.v8-note-chip .lumo-mini-plus{
+ box-sizing:border-box!important;
+}
+.card-quick,.close-round,.search-close,.remove-row,
+.qty-control button,.brand-focus-navigation button{
+ display:grid!important;
+ place-items:center!important;
+ justify-items:center!important;
+ align-items:center!important;
+ padding:0!important;
+ line-height:1!important;
+ text-align:center!important;
+ text-indent:0!important;
+}
+.card-quick .lumo-control-glyph,.qty-control .lumo-control-glyph{
+ display:block!important;
+ width:19px!important;height:19px!important;
+ margin:0!important;
+ stroke:currentColor!important;stroke-width:1.65!important;
+ stroke-linecap:round!important;stroke-linejoin:round!important;fill:none!important;
+ transform:none!important;
+}
+.qty-control button .lumo-control-glyph{width:17px!important;height:17px!important;}
+.card-quick{font-size:0!important;}
+.brand-focus-navigation button svg,
+.brand-focus-navigation button .lumo-reverse-arrow{
+ position:static!important;
+ margin:0!important;
+ transform-origin:center!important;
+}
+.brand-focus-navigation button .lumo-reverse-arrow{
+ display:grid!important;
+ place-items:center!important;
+ transform:rotate(180deg)!important;
+ width:21px!important;height:21px!important;
+}
+.brand-focus-navigation button svg{width:21px!important;height:21px!important;display:block!important;}
+.brand-focus-navigation>a{
+ display:inline-flex!important;
+ align-items:center!important;
+ justify-content:center!important;
+ gap:8px!important;
+ line-height:1.2!important;
+}
+.brand-focus-navigation>a>svg{width:19px!important;height:19px!important;display:block!important;flex-shrink:0!important;}
+.close-round::before,.close-round::after{content:none!important;}
+.close-round .lumo-close-icon,.remove-row .lumo-close-icon,
+#v8-clear-notes .lumo-close-icon{position:relative!important;display:block!important;flex:0 0 auto!important;margin:0 auto!important;}
+.close-round .lumo-close-icon::before,.close-round .lumo-close-icon::after,
+.remove-row .lumo-close-icon::before,.remove-row .lumo-close-icon::after{
+ left:50%!important;top:50%!important;height:19px!important;width:1.5px!important;
+ transform:translate(-50%,-50%) rotate(45deg)!important;
+ transform-origin:center!important;
+}
+.close-round .lumo-close-icon::after,.remove-row .lumo-close-icon::after{
+ transform:translate(-50%,-50%) rotate(-45deg)!important;
+}
+.v8-note-chip .lumo-mini-plus{display:inline-grid!important;place-items:center!important;line-height:1!important;}
+.v8-note-chip .lumo-mini-plus svg{display:block;width:16px;height:16px;stroke:currentColor;stroke-width:1.5;fill:none;stroke-linecap:round;}
+.header-actions .icon-button{display:grid!important;place-items:center!important;padding:0!important;line-height:1!important;}
+.header-actions .icon-button>svg{display:block!important;margin:auto!important;}
+@media(max-width:580px){
+ .brand-focus-navigation{gap:clamp(9px,2.5vw,18px)!important;align-items:center!important;}
+ .brand-focus-navigation button{width:44px!important;height:44px!important;flex:0 0 44px!important;}
+ .brand-focus-navigation>a{margin-left:auto!important;font-size:11px!important;white-space:normal!important;}
+ .brand-focus-navigation>a>svg{width:18px!important;height:18px!important;}
+ .card-quick{width:35px!important;height:35px!important;}
+ .card-quick .lumo-control-glyph{width:18px!important;height:18px!important;}
+ .story-section-v6 .story-intro-v6 h2{font-size:clamp(41px,10.3vw,68px)!important;line-height:1.12!important;overflow-wrap:anywhere!important;}
+}
+/* On a long dark product story the title must never remain half-transparent. */
+.story-section-v6 .story-intro-v6 h2.lumo-ink-heading,
+.story-section-v6 .story-intro-v6 h2.lumo-ink-heading.is-written{
+ opacity:1!important;
+ color:#f2e1d0!important;
+ filter:none!important;
+ transform:none!important;
+ transition:none!important;
+}
