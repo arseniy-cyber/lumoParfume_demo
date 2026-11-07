@@ -1,0 +1,152 @@
+/* LUMO PARFUM / v10 — editorial, locally hosted packshots, responsive photo scenes */
+:root{--coffee:#241610;--cocoa:#38271d;--champagne:#e4c5a1}
+html,body{overflow-x:clip}
+/* All catalog/brand pictures are the real uploaded transparent PNG files, not white-background online JPEGs. */
+img[src*="/packshots/"],img[src*="/brand-bottles/"]{
+  mix-blend-mode:normal!important;mask-image:none!important;-webkit-mask-image:none!important;
+  filter:drop-shadow(4px 16px 11px rgba(48,34,20,.19));
+}
+.card-stage img[src*="/packshots/"],.product-gallery img[src*="/packshots/"],.brand-directory img[src*="/brand-bottles/"]{
+  mix-blend-mode:normal!important;mask-image:none!important;-webkit-mask-image:none!important;
+}
+.card-stage,.perfume-card .card-stage{background:radial-gradient(ellipse at 51% 42%,#f5eee3 5%,#e8dacc 85%)!important}
+.card-stage .bottle-img{max-width:79%!important;max-height:80%!important;filter:drop-shadow(5px 15px 11px #65442d33)}
+.card-stage .bottle-img.scaled-afgano{max-height:64%!important;max-width:60%!important}
+.card-stage:after{opacity:.38}
+.bottle-img{transition:transform .75s cubic-bezier(.16,.8,.2,1)!important}
+.perfume-card:hover .bottle-img{transform:translateY(-8px) rotate(-2deg) scale(1.045)!important}
+.brand-focus-image .normalized-brand{width:auto!important;height:440px!important;max-height:84%!important;max-width:92%!important;object-fit:contain;filter:drop-shadow(13px 28px 13px rgba(39,24,14,.20))}
+.brand-focus-image .scaled-afgano{max-height:84%!important;max-width:92%!important}
+#brand-focus-bottle{width:100%;height:100%;display:grid;place-items:center;position:relative}
+.brand-focus-image:before{opacity:.5}
+.brand-directory-photo img[src*="/brand-bottles/"]{width:100%;height:100%;max-height:100%;object-fit:contain}
+
+/* Full-bleed photo scenes. Large sources replace former ~500px collage crops. */
+.v8-hero{height:100svh!important;min-height:690px!important;max-height:none!important;display:flex!important;align-items:flex-end!important;justify-content:center!important;background:#120e0b;isolation:isolate}
+.v8-hero-photo{position:absolute!important;inset:-12px!important;width:calc(100% + 24px)!important;height:calc(100% + 24px)!important;max-height:none!important;object-fit:cover!important;object-position:center 48%!important;filter:blur(8px) brightness(.72) saturate(.9)!important;transform:none!important}
+.v8-hero-shadow{background:linear-gradient(180deg,#10090755 0%,#1009071a 26%,#130b0abf 78%,#130b09f0 100%),linear-gradient(90deg,#150d0988,transparent 72%)!important}
+.v8-hero-copy{position:relative!important;left:auto!important;top:auto!important;bottom:auto!important;max-width:950px!important;width:min(90%,950px)!important;margin:0 auto 12vh!important;text-align:center!important;padding:0 15px!important;align-self:flex-end!important}
+.v8-hero-copy.reveal.visible{transform:none!important}
+.v8-hero-copy h1{font-family:var(--serif);font-weight:400;line-height:.93!important;font-size:clamp(78px,8.25vw,150px)!important;letter-spacing:-.055em;margin:22px auto 25px!important;max-width:940px;text-shadow:0 9px 35px #10080645}
+.v8-hero-copy h1 i{color:#eed2bb!important;white-space:nowrap}
+.v8-hero-copy p:not(.eyebrow){font-size:clamp(15px,1.4vw,19px)!important;line-height:1.6;max-width:490px!important;margin:0 auto 27px;color:#e9dace}
+.v8-hero-copy .eyebrow{letter-spacing:.31em;color:#efd9bd}
+.v8-hero-copy .v8-link{border:1px solid #f8e7d699!important;background:linear-gradient(90deg,#fff0da16,#ebbb7e0e);padding:12px 14px 12px 29px!important;gap:37px!important;border-radius:100px;font:11px/1.3 var(--sans);text-transform:uppercase;letter-spacing:.18em;transition:color .35s,background .35s,border-color .35s,transform .35s;box-shadow:0 14px 45px #1108074a}
+.v8-hero-copy .v8-link:hover{background:#eac7a2;color:#23130d;transform:translateY(-3px);border-color:#edc6a1!important}
+.v10-circle-arr{display:grid;place-items:center;border-radius:50%;width:31px;height:31px;background:#eecb9f1d;border:1px solid #f7e6d670}
+.v10-circle-arr svg{width:16px;height:16px}
+.v8-hero-corner{right:5.2%;bottom:23px;opacity:.7}
+.v8-editorial-photo,.v8-story-photo{height:96svh!important;min-height:650px!important;padding:0!important;align-items:center!important;background:#23140d!important;position:relative}
+.v8-editorial-photo>img,.v8-story-photo>img{position:absolute!important;inset:0!important;top:0!important;left:0!important;right:0!important;width:100%!important;height:100%!important;max-height:none!important;object-fit:cover!important;object-position:center center!important;transform:none!important;filter:brightness(.80) saturate(.85)}
+.v8-editorial-photo:hover>img,.v8-story-photo:hover>img{transform:none!important}
+.v8-editorial-photo .v8-photo-shade{background:linear-gradient(270deg,#160e0ee8 0%,#24150e8b 49%,transparent 88%)!important}
+.v8-story-photo .v8-story-shade{background:linear-gradient(90deg,#180d0edc 0%,#201610ba 40%,#1c120e30 78%),linear-gradient(0deg,#17100f66,transparent 60%)!important}
+.v8-section-copy{z-index:2;position:relative;width:min(650px,58vw)!important;padding:40px 0!important}
+.v8-section-copy h2{font-size:clamp(70px,7.5vw,135px)!important;line-height:.86;max-width:690px;text-shadow:0 8px 26px #0b090748}
+.v8-align-right{margin:0 7.3vw 0 auto!important;text-align:right!important}
+.v8-align-left{margin:0 auto 0 9vw!important;text-align:left!important}
+.v8-section-copy p:not(.eyebrow){max-width:415px;font-size:18px}
+/* The note-picking scene is a single beautiful photo within a broad editorial frame, not a tiny image tile. */
+.v8-note-picker-call{margin:0;background:#ede3d8!important;padding:clamp(23px,5vw,72px)!important;display:block!important;min-height:0!important;position:relative;isolation:isolate}
+.v8-note-call-photo{position:absolute!important;inset:clamp(23px,5vw,72px)!important;width:auto!important;height:auto!important;max-height:none!important;background:#17130f!important;overflow:hidden;display:block!important;z-index:-1}
+.v8-note-call-photo img{position:absolute!important;inset:0!important;width:100%!important;height:100%!important;max-width:none!important;max-height:none!important;object-fit:cover!important;object-position:center 55%!important;transform:none!important;filter:brightness(.80) saturate(.88)}
+.v8-note-call-photo:after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,#1b100df4 0%,#21130dc8 40%,#24150f42 92%)}
+.v8-note-call-text{padding:clamp(60px,8vw,125px) clamp(28px,6vw,95px)!important;min-height:590px;position:relative;z-index:2;width:min(770px,74%);display:flex;align-items:flex-start;justify-content:center;flex-direction:column}
+.v8-note-call-text .eyebrow.dark{color:#dab999}
+.v8-note-call-text h2{font-size:clamp(65px,6.3vw,117px)!important;color:#f8eee1!important;line-height:.9!important}
+.v8-note-call-text h2 i{color:#e4b999!important}
+.v8-note-call-text>p:not(.eyebrow){color:#e1ceba!important;font:19px/1.6 var(--serif)}
+.v8-note-call-text .v8-link.dark{display:inline-flex;border:1px solid #e7c4a5a0!important;border-radius:100px!important;padding:15px 25px!important;gap:22px;color:#f5e7d7!important;font:11px var(--sans);letter-spacing:.12em;background:#2a190e75;margin-top:18px;transition:all .4s}
+.v8-note-call-text .v8-link.dark:hover{background:#ebd1b4;color:#281910!important;transform:translateY(-3px)}
+/* other hero images keep large crisp originals */
+.v8-notes-hero>img{position:absolute!important;inset:0!important;width:100%!important;height:100%!important;max-height:none!important;object-fit:cover!important;transform:none!important;filter:brightness(.8)}
+.v8-notes-hero-shade{background:linear-gradient(90deg,#1d110feb,#1d110f91 45%,#1d110f69)!important}
+.about-hero-v7 .about-background{background-image:url('editorial-story.webp')!important;background-size:cover!important;filter:brightness(.73)!important}
+.about-photo-bg{background-image:url('editorial-feeling.webp')!important;background-size:cover!important}
+.page-hero:not(.compact){background-image:url('editorial-feeling.webp')!important;background-size:cover!important;background-position:center 56%!important}
+.page-hero:not(.compact) .page-hero-shade{background:linear-gradient(90deg,#1b120fcf,#21180f79)}
+/* the three approved photographic mini-scenes stay original but are dark-framed instead of giant stretched images */
+.v8-scenes-tile{background:#21150e!important}
+.v8-scenes-tile img{object-fit:cover!important;max-width:none!important;filter:brightness(.8)}
+.v8-scenes-tile:hover img{transform:scale(1.025)!important}
+/* Product detail: photo selection from the three real provided PNGs */
+.product-gallery{display:flex;flex-direction:column;align-items:stretch;min-width:0}
+.product-gallery .product-photo-stage{background:radial-gradient(ellipse at 50% 43%,#f6f0e8,#e8dacc)!important;min-height:500px}
+.product-photo-stage .product-detail-bottle{max-height:76%!important;max-width:74%!important;object-fit:contain!important;mix-blend-mode:normal!important;filter:drop-shadow(8px 24px 16px rgba(55,36,19,.19))}
+.product-photo-stage .scaled-afgano{max-height:70%!important;max-width:65%!important}
+.product-gallery-thumbs{display:flex;gap:12px;justify-content:center;padding:17px 2px 8px;align-items:center}
+.v10-gallery-thumb{width:86px;height:92px;display:grid;place-items:center;cursor:pointer;background:#eee4d8;border:1px solid #ab8e7260;transition:transform .35s,border-color .35s,background .35s;border-radius:3px;padding:7px}
+.v10-gallery-thumb img{max-height:100%;max-width:100%;object-fit:contain;filter:none!important;mix-blend-mode:normal!important;mask-image:none!important;-webkit-mask-image:none!important}
+.v10-gallery-thumb.active{border-color:#6b432a;background:#f8f0e5;transform:translateY(-3px);box-shadow:0 8px 19px #4a342321}
+.v10-gallery-thumb:hover{border-color:#b28f63;transform:translateY(-3px)}
+/* A real perfume silhouette shows during EVERY internal page transition */
+.page-wipe{background:linear-gradient(135deg,#1c130e,#44291c 50%,#1c120e)!important;opacity:0;transform:translateY(100%);transition:transform .69s cubic-bezier(.76,0,.16,1),opacity .1s .2s!important;pointer-events:none;will-change:transform}
+.page-wipe.active,.page-wipe.arriving{opacity:1!important;transform:translateY(0)!important}
+.page-wipe.arriving{transition:none!important}
+.page-wipe.arriving-away{opacity:1!important;transform:translateY(-103%)!important;transition:transform .78s cubic-bezier(.78,0,.22,1)!important}
+.wipe-grain{position:absolute;inset:0;opacity:.2;background:radial-gradient(circle at 50% 42%,#a47955,transparent 48%),repeating-linear-gradient(110deg,#d0a57c08 0px,#d0a57c08 1px,transparent 2px,transparent 6px)}
+.wipe-center{height:100%;width:100%;position:relative;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:12px;color:#f6e5d1}
+.wipe-center:before{content:'';position:absolute;width:min(36vw,450px);height:min(36vw,450px);background:radial-gradient(circle,#a4795042,transparent 69%);filter:blur(22px)}
+.wipe-center img{position:relative;height:min(52vh,440px);width:min(74vw,350px);object-fit:contain;filter:drop-shadow(12px 28px 18px #130b0868);animation:wipe-bottle-drift 3.5s ease-in-out infinite alternate}
+.wipe-kicker{position:relative;font:10px var(--sans);letter-spacing:.35em;color:#c9a780}
+.wipe-wordmark{position:relative;font:400 clamp(32px,5vw,70px)/1 var(--serif);letter-spacing:.09em}
+.wipe-wordmark i{font-family:var(--script);font-size:.8em;color:#ddc0a2}
+@keyframes wipe-bottle-drift{from{transform:translateY(6px) rotate(-2deg)}to{transform:translateY(-7px) rotate(2deg)}}
+/* Stable smooth text revealing without hiding content when reduced motion is active */
+.reveal{transition:opacity .95s cubic-bezier(.16,.68,.2,1),transform 1.15s cubic-bezier(.16,.7,.18,1),filter 1.05s ease!important}
+.toast{background:rgba(35,23,18,.94);border:1px solid #b88c60a8;border-radius:13px;box-shadow:0 20px 60px #0005;color:#f2e5d5;padding:14px 21px;max-width:310px}
+@media(max-width:900px){
+.v8-hero{min-height:700px!important;max-height:none!important;height:100svh!important}
+.v8-hero-photo{object-position:56% center!important}
+.v8-hero-copy{width:92%!important;margin:0 auto 10vh!important;padding:0 15px!important}
+.v8-hero-copy h1{font-size:clamp(69px,10.5vw,112px)!important}
+.v8-editorial-photo,.v8-story-photo{min-height:690px!important;height:86svh!important;padding:0!important;align-items:center!important}
+.v8-editorial-photo>img,.v8-story-photo>img{inset:0!important;height:100%!important;width:100%!important;max-height:none!important;object-fit:cover!important;transform:none!important}
+.v8-section-copy,.v8-align-left,.v8-align-right{width:83%!important;margin:0 auto!important;padding:0!important;text-align:left!important}
+.v8-editorial-photo .v8-photo-shade,.v8-story-photo .v8-story-shade{background:linear-gradient(90deg,#1a1011d8,#1a1110ab 58%,#21130e45)!important}
+.v8-section-copy h2{font-size:clamp(58px,10vw,96px)!important}
+.v8-section-copy p:not(.eyebrow){margin:0!important}
+.v8-note-call-text{width:88%;min-height:540px;padding:70px 55px!important}
+.v8-note-call-text h2{font-size:clamp(62px,8vw,94px)!important}
+.brand-focus-image .normalized-brand{height:350px!important}
+.product-gallery .product-photo-stage{min-height:470px}
+}
+@media(max-width:580px){
+.v8-hero{min-height:670px!important;height:100svh!important;display:flex!important;align-items:flex-end!important}
+.v8-hero-photo{object-position:62% center!important;filter:blur(6px) brightness(.62) saturate(.94)!important}
+.v8-hero-copy{position:relative!important;left:auto!important;bottom:auto!important;top:auto!important;width:96%!important;margin:0 auto 17vh!important;padding:0 10px!important;text-align:center!important}
+.v8-hero-copy h1{font-size:clamp(52px,13.4vw,79px)!important;line-height:.95!important;margin:16px 0 22px!important}
+.v8-hero-copy h1 i{white-space:normal}
+.v8-hero-copy p:not(.eyebrow){max-width:330px!important;font-size:14px!important;margin:0 auto 26px!important}
+.v8-hero-copy .eyebrow{font-size:8px;letter-spacing:.19em}
+.v8-hero-copy .v8-link{font-size:9px;gap:13px!important;padding:10px 10px 10px 20px!important}
+.v8-hero-corner{font-size:7px}
+.v8-editorial-photo,.v8-story-photo{height:88svh!important;min-height:620px!important;align-items:center!important;padding:0!important}
+.v8-editorial-photo>img,.v8-story-photo>img{inset:0!important;top:0!important;left:0!important;right:0!important;width:100%!important;height:100%!important;max-height:none!important;object-fit:cover!important;object-position:56% center!important;transform:none!important}
+.v8-section-copy,.v8-align-left,.v8-align-right{width:88%!important;margin:0 auto!important;text-align:left!important;padding:0!important}
+.v8-section-copy h2{font-size:clamp(52px,12vw,72px)!important;margin:22px 0!important;max-width:360px}
+.v8-section-copy p:not(.eyebrow){font-size:15px;max-width:310px}
+.v8-note-picker-call{padding:13px!important;min-height:0!important}
+.v8-note-call-photo{inset:13px!important;height:auto!important;top:13px!important}
+.v8-note-call-photo img{object-position:64% center!important;opacity:.8}
+.v8-note-call-photo:after{background:linear-gradient(90deg,#180f0ddc,#180f0dac 70%,#180f0d64)}
+.v8-note-call-text{width:100%;min-height:530px!important;padding:55px 30px!important}
+.v8-note-call-text h2{font-size:clamp(50px,11vw,70px)!important;margin:20px 0}
+.v8-note-call-text>p:not(.eyebrow){font-size:15px!important;max-width:310px}
+.v8-note-call-text .v8-link.dark{font-size:9px;padding:13px 15px!important;gap:14px;margin-top:18px}
+.v8-triple-scenes .v8-scenes-tile{min-height:310px}
+.brand-focus-image .normalized-brand{height:275px!important;width:auto!important;max-height:84%!important}
+.brand-focus-image{height:315px}
+.brand-focus-text h3{font-size:clamp(48px,14vw,70px)}
+.product-gallery .product-photo-stage{min-height:0;height:405px}
+.product-gallery-thumbs{gap:8px;padding-top:12px}
+.v10-gallery-thumb{width:70px;height:77px}
+.wipe-center img{height:min(47vh,340px);width:72vw}
+.toast{right:11px;bottom:15px;left:11px;max-width:none;text-align:center}
+}
+@media(prefers-reduced-motion:reduce){.page-wipe,.page-wipe.arriving-away{transition:none!important}.wipe-center img{animation:none!important}.v8-hero-photo{filter:brightness(.73)!important}.reveal{transition:none!important}}
+/* Final polish: editorial copy must remain razor-sharp while background alone is softly blurred. */
+.v8-hero-copy.reveal,.v8-section-copy.reveal,.v8-note-call-text.reveal{filter:none!important}
+body[data-page="product"] .masthead,
+body[data-page="favorites"] .masthead,
+body[data-page="cart"] .masthead{background:rgba(29,19,14,.96)!important;backdrop-filter:blur(12px)}

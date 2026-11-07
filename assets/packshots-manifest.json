@@ -1,0 +1,1022 @@
+{
+  "toskovat-1": {
+    "brand": "toskovat",
+    "name": "Age of Innocence",
+    "full_name": "Toskovat Age of Innocence",
+    "files": [
+      "assets/packshots/toskovat-1-1.png",
+      "assets/packshots/toskovat-1-2.png",
+      "assets/packshots/toskovat-1-3.png"
+    ]
+  },
+  "toskovat-4": {
+    "brand": "toskovat",
+    "name": "Annacamento",
+    "full_name": "Toskovat Annacamento",
+    "files": [
+      "assets/packshots/toskovat-4-1.png",
+      "assets/packshots/toskovat-4-2.png",
+      "assets/packshots/toskovat-4-3.png"
+    ]
+  },
+  "toskovat-5": {
+    "brand": "toskovat",
+    "name": "Born Screaming",
+    "full_name": "Toskovat Born Screaming",
+    "files": [
+      "assets/packshots/toskovat-5-1.png",
+      "assets/packshots/toskovat-5-2.png",
+      "assets/packshots/toskovat-5-3.png"
+    ]
+  },
+  "toskovat-6": {
+    "brand": "toskovat",
+    "name": "Curtain Call",
+    "full_name": "Toskovat Curtain Call",
+    "files": [
+      "assets/packshots/toskovat-6-1.png",
+      "assets/packshots/toskovat-6-2.png",
+      "assets/packshots/toskovat-6-3.png"
+    ]
+  },
+  "toskovat-8": {
+    "brand": "toskovat",
+    "name": "Empty Wishes Well",
+    "full_name": "Toskovat Empty Wishes Well",
+    "files": [
+      "assets/packshots/toskovat-8-1.png",
+      "assets/packshots/toskovat-8-2.png",
+      "assets/packshots/toskovat-8-3.png"
+    ]
+  },
+  "toskovat-9": {
+    "brand": "toskovat",
+    "name": "Forlorn Embers & Black Reigns",
+    "full_name": "Toskovat Forlorn Embers & Black Reigns",
+    "files": [
+      "assets/packshots/toskovat-9-1.png",
+      "assets/packshots/toskovat-9-2.png",
+      "assets/packshots/toskovat-9-3.png"
+    ]
+  },
+  "toskovat-10": {
+    "brand": "toskovat",
+    "name": "Génération Godard",
+    "full_name": "Toskovat Génération Godard",
+    "files": [
+      "assets/packshots/toskovat-10-1.png",
+      "assets/packshots/toskovat-10-2.png",
+      "assets/packshots/toskovat-10-3.png"
+    ]
+  },
+  "toskovat-12": {
+    "brand": "toskovat",
+    "name": "Ichigo Ichie",
+    "full_name": "Toskovat Ichigo Ichie",
+    "files": [
+      "assets/packshots/toskovat-12-1.png",
+      "assets/packshots/toskovat-12-2.png",
+      "assets/packshots/toskovat-12-3.png"
+    ]
+  },
+  "toskovat-13": {
+    "brand": "toskovat",
+    "name": "In The Belly of The Beast",
+    "full_name": "Toskovat In The Belly of The Beast",
+    "files": [
+      "assets/packshots/toskovat-13-1.png",
+      "assets/packshots/toskovat-13-2.png",
+      "assets/packshots/toskovat-13-3.png"
+    ]
+  },
+  "toskovat-15": {
+    "brand": "toskovat",
+    "name": "Inexcusable Evil",
+    "full_name": "Toskovat Inexcusable Evil",
+    "files": [
+      "assets/packshots/toskovat-15-1.png",
+      "assets/packshots/toskovat-15-2.png",
+      "assets/packshots/toskovat-15-3.png"
+    ]
+  },
+  "toskovat-16": {
+    "brand": "toskovat",
+    "name": "Last Birthday Cake",
+    "full_name": "Toskovat Last Birthday Cake",
+    "files": [
+      "assets/packshots/toskovat-16-1.png",
+      "assets/packshots/toskovat-16-2.png",
+      "assets/packshots/toskovat-16-3.png"
+    ]
+  },
+  "toskovat-17": {
+    "brand": "toskovat",
+    "name": "My Past Selves’ Flowers",
+    "full_name": "Toskovat My Past Selves’ Flowers",
+    "files": [
+      "assets/packshots/toskovat-17-1.png",
+      "assets/packshots/toskovat-17-2.png",
+      "assets/packshots/toskovat-17-3.png"
+    ]
+  },
+  "toskovat-18": {
+    "brand": "toskovat",
+    "name": "Pining Dew 2",
+    "full_name": "Toskovat Pining Dew 2",
+    "files": [
+      "assets/packshots/toskovat-18-1.png",
+      "assets/packshots/toskovat-18-2.png",
+      "assets/packshots/toskovat-18-3.png"
+    ]
+  },
+  "toskovat-19": {
+    "brand": "toskovat",
+    "name": "Pornstar (Noyau Doux)",
+    "full_name": "Toskovat Pornstar (Noyau Doux)",
+    "files": [
+      "assets/packshots/toskovat-19-1.png",
+      "assets/packshots/toskovat-19-2.png",
+      "assets/packshots/toskovat-19-3.png"
+    ]
+  },
+  "toskovat-21": {
+    "brand": "toskovat",
+    "name": "Silent at the Theme Park",
+    "full_name": "Toskovat Silent at the Theme Park",
+    "files": [
+      "assets/packshots/toskovat-21-1.png",
+      "assets/packshots/toskovat-21-2.png",
+      "assets/packshots/toskovat-21-3.png"
+    ]
+  },
+  "toskovat-23": {
+    "brand": "toskovat",
+    "name": "Things We Never Shared",
+    "full_name": "Toskovat Things We Never Shared",
+    "files": [
+      "assets/packshots/toskovat-23-1.png",
+      "assets/packshots/toskovat-23-2.png",
+      "assets/packshots/toskovat-23-3.png"
+    ]
+  },
+  "nasomatto-1": {
+    "brand": "nasomatto",
+    "name": "Absinth",
+    "full_name": "Nasomatto Absinth",
+    "files": [
+      "assets/packshots/nasomatto-1-1.png",
+      "assets/packshots/nasomatto-1-2.png",
+      "assets/packshots/nasomatto-1-3.png"
+    ]
+  },
+  "nasomatto-2": {
+    "brand": "nasomatto",
+    "name": "Baraonda",
+    "full_name": "Nasomatto Baraonda",
+    "files": [
+      "assets/packshots/nasomatto-2-1.png",
+      "assets/packshots/nasomatto-2-2.png",
+      "assets/packshots/nasomatto-2-3.png"
+    ]
+  },
+  "nasomatto-3": {
+    "brand": "nasomatto",
+    "name": "Black Afgano",
+    "full_name": "Nasomatto Black Afgano",
+    "files": [
+      "assets/packshots/nasomatto-3-1.png",
+      "assets/packshots/nasomatto-3-2.png",
+      "assets/packshots/nasomatto-3-3.png"
+    ]
+  },
+  "nasomatto-4": {
+    "brand": "nasomatto",
+    "name": "Blamage",
+    "full_name": "Nasomatto Blamage",
+    "files": [
+      "assets/packshots/nasomatto-4-1.png",
+      "assets/packshots/nasomatto-4-2.png",
+      "assets/packshots/nasomatto-4-3.png"
+    ]
+  },
+  "nasomatto-5": {
+    "brand": "nasomatto",
+    "name": "Duro",
+    "full_name": "Nasomatto Duro",
+    "files": [
+      "assets/packshots/nasomatto-5-1.png",
+      "assets/packshots/nasomatto-5-2.png",
+      "assets/packshots/nasomatto-5-3.png"
+    ]
+  },
+  "nasomatto-6": {
+    "brand": "nasomatto",
+    "name": "Fantomas",
+    "full_name": "Nasomatto Fantomas",
+    "files": [
+      "assets/packshots/nasomatto-6-1.png",
+      "assets/packshots/nasomatto-6-2.png",
+      "assets/packshots/nasomatto-6-3.png"
+    ]
+  },
+  "nasomatto-7": {
+    "brand": "nasomatto",
+    "name": "Micodelirio",
+    "full_name": "Nasomatto Micodelirio",
+    "files": [
+      "assets/packshots/nasomatto-7-1.png",
+      "assets/packshots/nasomatto-7-2.png",
+      "assets/packshots/nasomatto-7-3.png"
+    ]
+  },
+  "nasomatto-8": {
+    "brand": "nasomatto",
+    "name": "Narcotic V.",
+    "full_name": "Nasomatto Narcotic V.",
+    "files": [
+      "assets/packshots/nasomatto-8-1.png",
+      "assets/packshots/nasomatto-8-2.png",
+      "assets/packshots/nasomatto-8-3.png"
+    ]
+  },
+  "nasomatto-9": {
+    "brand": "nasomatto",
+    "name": "Nudiflorum",
+    "full_name": "Nasomatto Nudiflorum",
+    "files": [
+      "assets/packshots/nasomatto-9-1.png",
+      "assets/packshots/nasomatto-9-2.png",
+      "assets/packshots/nasomatto-9-3.png"
+    ]
+  },
+  "nasomatto-10": {
+    "brand": "nasomatto",
+    "name": "Pardon",
+    "full_name": "Nasomatto Pardon",
+    "files": [
+      "assets/packshots/nasomatto-10-1.png",
+      "assets/packshots/nasomatto-10-2.png",
+      "assets/packshots/nasomatto-10-3.png"
+    ]
+  },
+  "nasomatto-11": {
+    "brand": "nasomatto",
+    "name": "Sadonaso",
+    "full_name": "Nasomatto Sadonaso",
+    "files": [
+      "assets/packshots/nasomatto-11-1.png",
+      "assets/packshots/nasomatto-11-2.png",
+      "assets/packshots/nasomatto-11-3.png"
+    ]
+  },
+  "nasomatto-12": {
+    "brand": "nasomatto",
+    "name": "Silver Musk",
+    "full_name": "Nasomatto Silver Musk",
+    "files": [
+      "assets/packshots/nasomatto-12-1.png",
+      "assets/packshots/nasomatto-12-2.png",
+      "assets/packshots/nasomatto-12-3.png"
+    ]
+  },
+  "orto-parisi-1": {
+    "brand": "orto-parisi",
+    "name": "Bergamask",
+    "full_name": "Orto Parisi Bergamask",
+    "files": [
+      "assets/packshots/orto-parisi-1-1.png",
+      "assets/packshots/orto-parisi-1-2.png",
+      "assets/packshots/orto-parisi-1-3.png"
+    ]
+  },
+  "orto-parisi-2": {
+    "brand": "orto-parisi",
+    "name": "Boccanera",
+    "full_name": "Orto Parisi Boccanera",
+    "files": [
+      "assets/packshots/orto-parisi-2-1.png",
+      "assets/packshots/orto-parisi-2-2.png",
+      "assets/packshots/orto-parisi-2-3.png"
+    ]
+  },
+  "orto-parisi-3": {
+    "brand": "orto-parisi",
+    "name": "Brutus",
+    "full_name": "Orto Parisi Brutus",
+    "files": [
+      "assets/packshots/orto-parisi-3-1.png",
+      "assets/packshots/orto-parisi-3-2.png",
+      "assets/packshots/orto-parisi-3-3.png"
+    ]
+  },
+  "orto-parisi-4": {
+    "brand": "orto-parisi",
+    "name": "Cuoium",
+    "full_name": "Orto Parisi Cuoium",
+    "files": [
+      "assets/packshots/orto-parisi-4-1.png",
+      "assets/packshots/orto-parisi-4-2.png",
+      "assets/packshots/orto-parisi-4-3.png"
+    ]
+  },
+  "orto-parisi-5": {
+    "brand": "orto-parisi",
+    "name": "Megamare",
+    "full_name": "Orto Parisi Megamare",
+    "files": [
+      "assets/packshots/orto-parisi-5-1.png",
+      "assets/packshots/orto-parisi-5-2.png",
+      "assets/packshots/orto-parisi-5-3.png"
+    ]
+  },
+  "orto-parisi-6": {
+    "brand": "orto-parisi",
+    "name": "Risvelium",
+    "full_name": "Orto Parisi Risvelium",
+    "files": [
+      "assets/packshots/orto-parisi-6-1.png",
+      "assets/packshots/orto-parisi-6-2.png",
+      "assets/packshots/orto-parisi-6-3.png"
+    ]
+  },
+  "orto-parisi-7": {
+    "brand": "orto-parisi",
+    "name": "Seminalis",
+    "full_name": "Orto Parisi Seminalis",
+    "files": [
+      "assets/packshots/orto-parisi-7-1.png",
+      "assets/packshots/orto-parisi-7-2.png",
+      "assets/packshots/orto-parisi-7-3.png"
+    ]
+  },
+  "orto-parisi-8": {
+    "brand": "orto-parisi",
+    "name": "Stercus",
+    "full_name": "Orto Parisi Stercus",
+    "files": [
+      "assets/packshots/orto-parisi-8-1.png",
+      "assets/packshots/orto-parisi-8-2.png",
+      "assets/packshots/orto-parisi-8-3.png"
+    ]
+  },
+  "orto-parisi-9": {
+    "brand": "orto-parisi",
+    "name": "Terroni",
+    "full_name": "Orto Parisi Terroni",
+    "files": [
+      "assets/packshots/orto-parisi-9-1.png",
+      "assets/packshots/orto-parisi-9-2.png",
+      "assets/packshots/orto-parisi-9-3.png"
+    ]
+  },
+  "orto-parisi-10": {
+    "brand": "orto-parisi",
+    "name": "Viride",
+    "full_name": "Orto Parisi Viride",
+    "files": [
+      "assets/packshots/orto-parisi-10-1.png",
+      "assets/packshots/orto-parisi-10-2.png",
+      "assets/packshots/orto-parisi-10-3.png"
+    ]
+  },
+  "xerjoff-2": {
+    "brand": "xerjoff",
+    "name": "Erba Pura",
+    "full_name": "Xerjoff Erba Pura",
+    "files": [
+      "assets/packshots/xerjoff-2-1.png",
+      "assets/packshots/xerjoff-2-2.png",
+      "assets/packshots/xerjoff-2-3.png"
+    ]
+  },
+  "xerjoff-3": {
+    "brand": "xerjoff",
+    "name": "Erba Gold",
+    "full_name": "Xerjoff Erba Gold",
+    "files": [
+      "assets/packshots/xerjoff-3-1.png",
+      "assets/packshots/xerjoff-3-2.png",
+      "assets/packshots/xerjoff-3-3.png"
+    ]
+  },
+  "xerjoff-6": {
+    "brand": "xerjoff",
+    "name": "Torino21",
+    "full_name": "Xerjoff Torino21",
+    "files": [
+      "assets/packshots/xerjoff-6-1.png",
+      "assets/packshots/xerjoff-6-2.png",
+      "assets/packshots/xerjoff-6-3.png"
+    ]
+  },
+  "xerjoff-17": {
+    "brand": "xerjoff",
+    "name": "More Than Words",
+    "full_name": "Xerjoff More Than Words",
+    "files": [
+      "assets/packshots/xerjoff-17-1.png",
+      "assets/packshots/xerjoff-17-2.png",
+      "assets/packshots/xerjoff-17-3.png"
+    ]
+  },
+  "xerjoff-28": {
+    "brand": "xerjoff",
+    "name": "40 Knots",
+    "full_name": "Xerjoff 40 Knots",
+    "files": [
+      "assets/packshots/xerjoff-28-1.png",
+      "assets/packshots/xerjoff-28-2.png",
+      "assets/packshots/xerjoff-28-3.png"
+    ]
+  },
+  "initio-1": {
+    "brand": "initio",
+    "name": "Oud for Greatness",
+    "full_name": "Initio Parfums Privés Oud for Greatness",
+    "files": [
+      "assets/packshots/initio-1-1.png",
+      "assets/packshots/initio-1-2.png",
+      "assets/packshots/initio-1-3.png"
+    ]
+  },
+  "initio-2": {
+    "brand": "initio",
+    "name": "Oud for Happiness",
+    "full_name": "Initio Parfums Privés Oud for Happiness",
+    "files": [
+      "assets/packshots/initio-2-1.png",
+      "assets/packshots/initio-2-2.png",
+      "assets/packshots/initio-2-3.png"
+    ]
+  },
+  "initio-3": {
+    "brand": "initio",
+    "name": "Oud for Greatness Neo",
+    "full_name": "Initio Parfums Privés Oud for Greatness Neo",
+    "files": [
+      "assets/packshots/initio-3-1.png",
+      "assets/packshots/initio-3-2.png",
+      "assets/packshots/initio-3-3.png"
+    ]
+  },
+  "initio-4": {
+    "brand": "initio",
+    "name": "Side Effect",
+    "full_name": "Initio Parfums Privés Side Effect",
+    "files": [
+      "assets/packshots/initio-4-1.png",
+      "assets/packshots/initio-4-2.png",
+      "assets/packshots/initio-4-3.png"
+    ]
+  },
+  "initio-5": {
+    "brand": "initio",
+    "name": "Absolute Aphrodisiac",
+    "full_name": "Initio Parfums Privés Absolute Aphrodisiac",
+    "files": [
+      "assets/packshots/initio-5-1.png",
+      "assets/packshots/initio-5-2.png",
+      "assets/packshots/initio-5-3.png"
+    ]
+  },
+  "initio-6": {
+    "brand": "initio",
+    "name": "Blessed Baraka",
+    "full_name": "Initio Parfums Privés Blessed Baraka",
+    "files": [
+      "assets/packshots/initio-6-1.png",
+      "assets/packshots/initio-6-2.png",
+      "assets/packshots/initio-6-3.png"
+    ]
+  },
+  "initio-7": {
+    "brand": "initio",
+    "name": "Psychedelic Love",
+    "full_name": "Initio Parfums Privés Psychedelic Love",
+    "files": [
+      "assets/packshots/initio-7-1.png",
+      "assets/packshots/initio-7-2.png",
+      "assets/packshots/initio-7-3.png"
+    ]
+  },
+  "initio-8": {
+    "brand": "initio",
+    "name": "Atomic Rose",
+    "full_name": "Initio Parfums Privés Atomic Rose",
+    "files": [
+      "assets/packshots/initio-8-1.png",
+      "assets/packshots/initio-8-2.png",
+      "assets/packshots/initio-8-3.png"
+    ]
+  },
+  "initio-9": {
+    "brand": "initio",
+    "name": "Musk Therapy",
+    "full_name": "Initio Parfums Privés Musk Therapy",
+    "files": [
+      "assets/packshots/initio-9-1.png",
+      "assets/packshots/initio-9-2.png",
+      "assets/packshots/initio-9-3.png"
+    ]
+  },
+  "initio-10": {
+    "brand": "initio",
+    "name": "Rehab",
+    "full_name": "Initio Parfums Privés Rehab",
+    "files": [
+      "assets/packshots/initio-10-1.png",
+      "assets/packshots/initio-10-2.png",
+      "assets/packshots/initio-10-3.png"
+    ]
+  },
+  "initio-11": {
+    "brand": "initio",
+    "name": "Paragon",
+    "full_name": "Initio Parfums Privés Paragon",
+    "files": [
+      "assets/packshots/initio-11-1.png",
+      "assets/packshots/initio-11-2.png",
+      "assets/packshots/initio-11-3.png"
+    ]
+  },
+  "initio-12": {
+    "brand": "initio",
+    "name": "Narcotic Delight",
+    "full_name": "Initio Parfums Privés Narcotic Delight",
+    "files": [
+      "assets/packshots/initio-12-1.png",
+      "assets/packshots/initio-12-2.png",
+      "assets/packshots/initio-12-3.png"
+    ]
+  },
+  "initio-13": {
+    "brand": "initio",
+    "name": "Can't Get Enough",
+    "full_name": "Initio Parfums Privés Can't Get Enough",
+    "files": [
+      "assets/packshots/initio-13-1.png",
+      "assets/packshots/initio-13-2.png",
+      "assets/packshots/initio-13-3.png"
+    ]
+  },
+  "initio-14": {
+    "brand": "initio",
+    "name": "High Frequency",
+    "full_name": "Initio Parfums Privés High Frequency",
+    "files": [
+      "assets/packshots/initio-14-1.png",
+      "assets/packshots/initio-14-2.png",
+      "assets/packshots/initio-14-3.png"
+    ]
+  },
+  "initio-15": {
+    "brand": "initio",
+    "name": "Addictive Vibration",
+    "full_name": "Initio Parfums Privés Addictive Vibration",
+    "files": [
+      "assets/packshots/initio-15-1.png",
+      "assets/packshots/initio-15-2.png",
+      "assets/packshots/initio-15-3.png"
+    ]
+  },
+  "initio-17": {
+    "brand": "initio",
+    "name": "Magnetic Blend 7",
+    "full_name": "Initio Parfums Privés Magnetic Blend 7",
+    "files": [
+      "assets/packshots/initio-17-1.png",
+      "assets/packshots/initio-17-2.png",
+      "assets/packshots/initio-17-3.png"
+    ]
+  },
+  "initio-18": {
+    "brand": "initio",
+    "name": "Mystic Experience",
+    "full_name": "Initio Parfums Privés Mystic Experience",
+    "files": [
+      "assets/packshots/initio-18-1.png",
+      "assets/packshots/initio-18-2.png",
+      "assets/packshots/initio-18-3.png"
+    ]
+  },
+  "parfums-de-marly-1": {
+    "brand": "parfums-de-marly",
+    "name": "Layton",
+    "full_name": "Parfums de Marly Layton",
+    "files": [
+      "assets/packshots/parfums-de-marly-1-1.png",
+      "assets/packshots/parfums-de-marly-1-2.png",
+      "assets/packshots/parfums-de-marly-1-3.png"
+    ]
+  },
+  "parfums-de-marly-2": {
+    "brand": "parfums-de-marly",
+    "name": "Layton Exclusif",
+    "full_name": "Parfums de Marly Layton Exclusif",
+    "files": [
+      "assets/packshots/parfums-de-marly-2-1.png",
+      "assets/packshots/parfums-de-marly-2-2.png",
+      "assets/packshots/parfums-de-marly-2-3.png"
+    ]
+  },
+  "parfums-de-marly-3": {
+    "brand": "parfums-de-marly",
+    "name": "Herod",
+    "full_name": "Parfums de Marly Herod",
+    "files": [
+      "assets/packshots/parfums-de-marly-3-1.png",
+      "assets/packshots/parfums-de-marly-3-2.png",
+      "assets/packshots/parfums-de-marly-3-3.png"
+    ]
+  },
+  "parfums-de-marly-4": {
+    "brand": "parfums-de-marly",
+    "name": "Haltane",
+    "full_name": "Parfums de Marly Haltane",
+    "files": [
+      "assets/packshots/parfums-de-marly-4-1.png",
+      "assets/packshots/parfums-de-marly-4-2.png",
+      "assets/packshots/parfums-de-marly-4-3.png"
+    ]
+  },
+  "parfums-de-marly-5": {
+    "brand": "parfums-de-marly",
+    "name": "Carlisle",
+    "full_name": "Parfums de Marly Carlisle",
+    "files": [
+      "assets/packshots/parfums-de-marly-5-1.png",
+      "assets/packshots/parfums-de-marly-5-2.png",
+      "assets/packshots/parfums-de-marly-5-3.png"
+    ]
+  },
+  "parfums-de-marly-6": {
+    "brand": "parfums-de-marly",
+    "name": "Oajan",
+    "full_name": "Parfums de Marly Oajan",
+    "files": [
+      "assets/packshots/parfums-de-marly-6-1.png",
+      "assets/packshots/parfums-de-marly-6-2.png",
+      "assets/packshots/parfums-de-marly-6-3.png"
+    ]
+  },
+  "parfums-de-marly-7": {
+    "brand": "parfums-de-marly",
+    "name": "Althaïr",
+    "full_name": "Parfums de Marly Althaïr",
+    "files": [
+      "assets/packshots/parfums-de-marly-7-1.png",
+      "assets/packshots/parfums-de-marly-7-2.png",
+      "assets/packshots/parfums-de-marly-7-3.png"
+    ]
+  },
+  "parfums-de-marly-8": {
+    "brand": "parfums-de-marly",
+    "name": "Pegasus",
+    "full_name": "Parfums de Marly Pegasus",
+    "files": [
+      "assets/packshots/parfums-de-marly-8-1.png",
+      "assets/packshots/parfums-de-marly-8-2.png",
+      "assets/packshots/parfums-de-marly-8-3.png"
+    ]
+  },
+  "parfums-de-marly-9": {
+    "brand": "parfums-de-marly",
+    "name": "Pegasus Exclusif",
+    "full_name": "Parfums de Marly Pegasus Exclusif",
+    "files": [
+      "assets/packshots/parfums-de-marly-9-1.png",
+      "assets/packshots/parfums-de-marly-9-2.png",
+      "assets/packshots/parfums-de-marly-9-3.png"
+    ]
+  },
+  "parfums-de-marly-10": {
+    "brand": "parfums-de-marly",
+    "name": "Sedley",
+    "full_name": "Parfums de Marly Sedley",
+    "files": [
+      "assets/packshots/parfums-de-marly-10-1.png",
+      "assets/packshots/parfums-de-marly-10-2.png",
+      "assets/packshots/parfums-de-marly-10-3.png"
+    ]
+  },
+  "parfums-de-marly-11": {
+    "brand": "parfums-de-marly",
+    "name": "Greenley",
+    "full_name": "Parfums de Marly Greenley",
+    "files": [
+      "assets/packshots/parfums-de-marly-11-1.png",
+      "assets/packshots/parfums-de-marly-11-2.png",
+      "assets/packshots/parfums-de-marly-11-3.png"
+    ]
+  },
+  "parfums-de-marly-12": {
+    "brand": "parfums-de-marly",
+    "name": "Percival",
+    "full_name": "Parfums de Marly Percival",
+    "files": [
+      "assets/packshots/parfums-de-marly-12-1.png",
+      "assets/packshots/parfums-de-marly-12-2.png",
+      "assets/packshots/parfums-de-marly-12-3.png"
+    ]
+  },
+  "parfums-de-marly-17": {
+    "brand": "parfums-de-marly",
+    "name": "Delina",
+    "full_name": "Parfums de Marly Delina",
+    "files": [
+      "assets/packshots/parfums-de-marly-17-1.png",
+      "assets/packshots/parfums-de-marly-17-2.png",
+      "assets/packshots/parfums-de-marly-17-3.png"
+    ]
+  },
+  "parfums-de-marly-18": {
+    "brand": "parfums-de-marly",
+    "name": "Delina Exclusif",
+    "full_name": "Parfums de Marly Delina Exclusif",
+    "files": [
+      "assets/packshots/parfums-de-marly-18-1.png",
+      "assets/packshots/parfums-de-marly-18-2.png",
+      "assets/packshots/parfums-de-marly-18-3.png"
+    ]
+  },
+  "parfums-de-marly-19": {
+    "brand": "parfums-de-marly",
+    "name": "Delina La Rosée",
+    "full_name": "Parfums de Marly Delina La Rosée",
+    "files": [
+      "assets/packshots/parfums-de-marly-19-1.png",
+      "assets/packshots/parfums-de-marly-19-2.png",
+      "assets/packshots/parfums-de-marly-19-3.png"
+    ]
+  },
+  "parfums-de-marly-20": {
+    "brand": "parfums-de-marly",
+    "name": "Valaya",
+    "full_name": "Parfums de Marly Valaya",
+    "files": [
+      "assets/packshots/parfums-de-marly-20-1.png",
+      "assets/packshots/parfums-de-marly-20-2.png",
+      "assets/packshots/parfums-de-marly-20-3.png"
+    ]
+  },
+  "parfums-de-marly-21": {
+    "brand": "parfums-de-marly",
+    "name": "Valaya Exclusif",
+    "full_name": "Parfums de Marly Valaya Exclusif",
+    "files": [
+      "assets/packshots/parfums-de-marly-21-1.png",
+      "assets/packshots/parfums-de-marly-21-2.png",
+      "assets/packshots/parfums-de-marly-21-3.png"
+    ]
+  },
+  "parfums-de-marly-22": {
+    "brand": "parfums-de-marly",
+    "name": "Oriana",
+    "full_name": "Parfums de Marly Oriana",
+    "files": [
+      "assets/packshots/parfums-de-marly-22-1.png",
+      "assets/packshots/parfums-de-marly-22-2.png",
+      "assets/packshots/parfums-de-marly-22-3.png"
+    ]
+  },
+  "parfums-de-marly-23": {
+    "brand": "parfums-de-marly",
+    "name": "Cassili",
+    "full_name": "Parfums de Marly Cassili",
+    "files": [
+      "assets/packshots/parfums-de-marly-23-1.png",
+      "assets/packshots/parfums-de-marly-23-2.png",
+      "assets/packshots/parfums-de-marly-23-3.png"
+    ]
+  },
+  "parfums-de-marly-24": {
+    "brand": "parfums-de-marly",
+    "name": "Safanad",
+    "full_name": "Parfums de Marly Safanad",
+    "files": [
+      "assets/packshots/parfums-de-marly-24-1.png",
+      "assets/packshots/parfums-de-marly-24-2.png",
+      "assets/packshots/parfums-de-marly-24-3.png"
+    ]
+  },
+  "parfums-de-marly-27": {
+    "brand": "parfums-de-marly",
+    "name": "Palatine",
+    "full_name": "Parfums de Marly Palatine",
+    "files": [
+      "assets/packshots/parfums-de-marly-27-1.png",
+      "assets/packshots/parfums-de-marly-27-2.png",
+      "assets/packshots/parfums-de-marly-27-3.png"
+    ]
+  },
+  "byredo-1": {
+    "brand": "byredo",
+    "name": "Bal d’Afrique",
+    "full_name": "Byredo Bal d’Afrique",
+    "files": [
+      "assets/packshots/byredo-1-1.png",
+      "assets/packshots/byredo-1-2.png",
+      "assets/packshots/byredo-1-3.png"
+    ]
+  },
+  "byredo-2": {
+    "brand": "byredo",
+    "name": "Gypsy Water",
+    "full_name": "Byredo Gypsy Water",
+    "files": [
+      "assets/packshots/byredo-2-1.png",
+      "assets/packshots/byredo-2-2.png",
+      "assets/packshots/byredo-2-3.png"
+    ]
+  },
+  "byredo-3": {
+    "brand": "byredo",
+    "name": "Blanche",
+    "full_name": "Byredo Blanche",
+    "files": [
+      "assets/packshots/byredo-3-1.png",
+      "assets/packshots/byredo-3-2.png",
+      "assets/packshots/byredo-3-3.png"
+    ]
+  },
+  "byredo-4": {
+    "brand": "byredo",
+    "name": "Mojave Ghost",
+    "full_name": "Byredo Mojave Ghost",
+    "files": [
+      "assets/packshots/byredo-4-1.png",
+      "assets/packshots/byredo-4-2.png",
+      "assets/packshots/byredo-4-3.png"
+    ]
+  },
+  "byredo-6": {
+    "brand": "byredo",
+    "name": "Bibliothèque",
+    "full_name": "Byredo Bibliothèque",
+    "files": [
+      "assets/packshots/byredo-6-1.png",
+      "assets/packshots/byredo-6-2.png",
+      "assets/packshots/byredo-6-3.png"
+    ]
+  },
+  "byredo-7": {
+    "brand": "byredo",
+    "name": "Rose of No Man’s Land",
+    "full_name": "Byredo Rose of No Man’s Land",
+    "files": [
+      "assets/packshots/byredo-7-1.png",
+      "assets/packshots/byredo-7-2.png",
+      "assets/packshots/byredo-7-3.png"
+    ]
+  },
+  "byredo-8": {
+    "brand": "byredo",
+    "name": "Black Saffron",
+    "full_name": "Byredo Black Saffron",
+    "files": [
+      "assets/packshots/byredo-8-1.png",
+      "assets/packshots/byredo-8-2.png",
+      "assets/packshots/byredo-8-3.png"
+    ]
+  },
+  "byredo-9": {
+    "brand": "byredo",
+    "name": "Super Cedar",
+    "full_name": "Byredo Super Cedar",
+    "files": [
+      "assets/packshots/byredo-9-1.png",
+      "assets/packshots/byredo-9-2.png",
+      "assets/packshots/byredo-9-3.png"
+    ]
+  },
+  "byredo-11": {
+    "brand": "byredo",
+    "name": "De Los Santos",
+    "full_name": "Byredo De Los Santos",
+    "files": [
+      "assets/packshots/byredo-11-1.png",
+      "assets/packshots/byredo-11-2.png",
+      "assets/packshots/byredo-11-3.png"
+    ]
+  },
+  "byredo-12": {
+    "brand": "byredo",
+    "name": "Animalique",
+    "full_name": "Byredo Animalique",
+    "files": [
+      "assets/packshots/byredo-12-1.png",
+      "assets/packshots/byredo-12-2.png",
+      "assets/packshots/byredo-12-3.png"
+    ]
+  },
+  "maison-francis-kurkdjian-1": {
+    "brand": "maison-francis-kurkdjian",
+    "name": "Baccarat Rouge 540",
+    "full_name": "Maison Francis Kurkdjian Baccarat Rouge 540",
+    "files": [
+      "assets/packshots/maison-francis-kurkdjian-1-1.png",
+      "assets/packshots/maison-francis-kurkdjian-1-2.png",
+      "assets/packshots/maison-francis-kurkdjian-1-3.png"
+    ]
+  },
+  "tom-ford-1": {
+    "brand": "tom-ford",
+    "name": "Tobacco Vanille",
+    "full_name": "Tom Ford Tobacco Vanille",
+    "files": [
+      "assets/packshots/tom-ford-1-1.png",
+      "assets/packshots/tom-ford-1-2.png",
+      "assets/packshots/tom-ford-1-3.png"
+    ]
+  },
+  "tom-ford-2": {
+    "brand": "tom-ford",
+    "name": "Oud Wood",
+    "full_name": "Tom Ford Oud Wood",
+    "files": [
+      "assets/packshots/tom-ford-2-1.png",
+      "assets/packshots/tom-ford-2-2.png",
+      "assets/packshots/tom-ford-2-3.png"
+    ]
+  },
+  "tom-ford-4": {
+    "brand": "tom-ford",
+    "name": "Lost Cherry",
+    "full_name": "Tom Ford Lost Cherry",
+    "files": [
+      "assets/packshots/tom-ford-4-1.png",
+      "assets/packshots/tom-ford-4-2.png",
+      "assets/packshots/tom-ford-4-3.png"
+    ]
+  },
+  "tom-ford-5": {
+    "brand": "tom-ford",
+    "name": "Bitter Peach",
+    "full_name": "Tom Ford Bitter Peach",
+    "files": [
+      "assets/packshots/tom-ford-5-1.png",
+      "assets/packshots/tom-ford-5-2.png",
+      "assets/packshots/tom-ford-5-3.png"
+    ]
+  },
+  "tom-ford-7": {
+    "brand": "tom-ford",
+    "name": "Cherry Smoke",
+    "full_name": "Tom Ford Cherry Smoke",
+    "files": [
+      "assets/packshots/tom-ford-7-1.png",
+      "assets/packshots/tom-ford-7-2.png",
+      "assets/packshots/tom-ford-7-3.png"
+    ]
+  },
+  "tom-ford-12": {
+    "brand": "tom-ford",
+    "name": "Ombré Leather",
+    "full_name": "Tom Ford Ombré Leather",
+    "files": [
+      "assets/packshots/tom-ford-12-1.png",
+      "assets/packshots/tom-ford-12-2.png",
+      "assets/packshots/tom-ford-12-3.png"
+    ]
+  },
+  "tom-ford-14": {
+    "brand": "tom-ford",
+    "name": "Soleil Blanc",
+    "full_name": "Tom Ford Soleil Blanc",
+    "files": [
+      "assets/packshots/tom-ford-14-1.png",
+      "assets/packshots/tom-ford-14-2.png",
+      "assets/packshots/tom-ford-14-3.png"
+    ]
+  },
+  "tom-ford-17": {
+    "brand": "tom-ford",
+    "name": "Neroli Portofino",
+    "full_name": "Tom Ford Neroli Portofino",
+    "files": [
+      "assets/packshots/tom-ford-17-1.png",
+      "assets/packshots/tom-ford-17-2.png",
+      "assets/packshots/tom-ford-17-3.png"
+    ]
+  },
+  "tom-ford-20": {
+    "brand": "tom-ford",
+    "name": "Fucking Fabulous",
+    "full_name": "Tom Ford Fucking Fabulous",
+    "files": [
+      "assets/packshots/tom-ford-20-1.png",
+      "assets/packshots/tom-ford-20-2.png",
+      "assets/packshots/tom-ford-20-3.png"
+    ]
+  },
+  "tom-ford-25": {
+    "brand": "tom-ford",
+    "name": "Black Orchid",
+    "full_name": "Tom Ford Black Orchid",
+    "files": [
+      "assets/packshots/tom-ford-25-1.png",
+      "assets/packshots/tom-ford-25-2.png",
+      "assets/packshots/tom-ford-25-3.png"
+    ]
+  }
+}

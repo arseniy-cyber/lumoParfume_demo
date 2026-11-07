@@ -1,0 +1,61 @@
+/* Lumo Parfum v9. Main photography is kept identical to the approved source.
+   Product packshots from manufacturers are not composited into hero images. */
+html{scroll-behavior:auto!important}
+/* Remove the heavy cover zoom of undersized approved image panels */
+.v8-hero{min-height:660px;height:min(820px,92svh);background:#1b100d;isolation:isolate}
+.v8-hero-photo{inset:auto 0 0 auto;width:min(70vw,950px);height:auto;max-height:95%;object-fit:contain;object-position:center right;transform:none!important;filter:none!important}
+.v8-hero-shadow{background:linear-gradient(90deg,#1b100d 0%,#1b100de8 19%,#1b100db6 35%,transparent 63%),linear-gradient(0deg,#1b100d 0%,transparent 25%)}
+.v8-hero-copy{width:47vw;max-width:600px;margin-left:7.3vw;margin-top:0}
+.v8-hero-copy h1{font-size:clamp(84px,7.2vw,137px)}
+.v8-editorial-photo,.v8-story-photo{min-height:590px;height:auto;padding-block:65px;background:#24140f;overflow:hidden}
+.v8-editorial-photo>img{left:2.5%;right:auto;top:50%;width:min(49vw,613px);height:auto;max-height:78%;object-fit:contain;transform:translateY(-50%)!important;object-position:center}
+.v8-editorial-photo:hover>img{transform:translateY(-50%)!important}
+.v8-story-photo>img{left:auto;right:3%;top:50%;width:min(47vw,610px);height:auto;max-height:78%;object-fit:contain;transform:translateY(-50%)!important}
+.v8-story-photo:hover>img{transform:translateY(-50%)!important}
+.v8-editorial-photo .v8-photo-shade{background:linear-gradient(90deg,transparent 25%,#24140f9b 54%,#24140f 77%)}
+.v8-story-photo .v8-story-shade{background:linear-gradient(90deg,#24140f 8%,#24140fc0 37%,transparent 69%)}
+.v8-note-call-photo{height:min(425px,42vw);background:#1b130e;display:flex;justify-content:center;align-items:center}
+.v8-note-call-photo img{width:min(100%,580px);height:auto;max-height:100%;object-fit:contain;transform:none!important}
+.v8-triple-scenes{background:#24150f}
+.v8-scenes-tile{min-height:330px;max-height:410px;background:#24150f}
+.v8-scenes-tile img{width:100%;height:100%;object-fit:contain;transform:none!important}
+.v8-scenes-tile:hover img{transform:none!important}
+.v8-notes-hero>img{object-fit:contain;width:min(100%,1050px);height:auto;max-height:80%;left:50%;top:50%;transform:translate(-50%,-50%)}
+.v8-notes-hero{background:#231812}
+/* The two supplied customer packshots really are transparent local PNGs; show their full object. */
+.bottle-img.scaled-afgano,.product-detail-bottle.scaled-afgano,.menu-preview-bottle.scaled-afgano,.focus-bottle.scaled-afgano{max-height:58%!important;max-width:66%!important;object-fit:contain}
+.perfume-card:hover .bottle-img.scaled-afgano{transform:translateY(-8px) rotate(-1deg) scale(1.035)}
+.brand-focus-image .scaled-afgano{max-height:63%!important;max-width:57%!important}
+.product-photo-stage .scaled-afgano{max-height:68%!important}
+/* External white-backdrop official pictures: prevent a sharp rectangular white card by
+   blending light backgrounds and feathering photo edges. This is not a replacement for PNG segmentation. */
+.card-stage,.perfume-card .card-stage{background:#eee8df!important;isolation:isolate}
+.card-stage img.img-raster,.card-stage img.img-transparent:not([src*="product-cutouts/"]){mix-blend-mode:multiply!important;mask-image:radial-gradient(ellipse 66% 70% at 50% 50%,#000 54%,transparent 95%);-webkit-mask-image:radial-gradient(ellipse 66% 70% at 50% 50%,#000 54%,transparent 95%)}
+.product-gallery .product-photo-stage{background:#eee8df!important;isolation:isolate}
+.product-gallery img.img-raster,.product-gallery img.img-transparent:not([src*="product-cutouts/"]){mix-blend-mode:multiply!important;mask-image:radial-gradient(ellipse 72% 71% at 50% 50%,#000 60%,transparent 99%);-webkit-mask-image:radial-gradient(ellipse 72% 71% at 50% 50%,#000 60%,transparent 99%)}
+.product-gallery img[src*="product-cutouts/"],.perfume-card img[src*="product-cutouts/"]{mix-blend-mode:normal!important;mask-image:none!important;-webkit-mask-image:none!important}
+.card-stage .bottle-img{max-width:71%!important;max-height:75%!important}
+.card-stage .bottle-img.scaled-afgano{max-height:57%!important;max-width:53%!important}
+.directory-bottle.img-raster,.focus-bottle.img-raster{mix-blend-mode:multiply!important;mask-image:radial-gradient(ellipse at center,#000 60%,transparent 95%)}
+/* Keep original brand stories, pyramid photos and single-brand arrows unchanged. */
+@media(max-width:800px){
+.v8-hero{height:780px;min-height:650px;display:block}
+.v8-hero-photo{top:140px;bottom:auto;left:0;right:0;width:100%;height:auto;max-height:none;object-fit:contain}
+.v8-hero-shadow{background:linear-gradient(0deg,#1b100d 0%,#1b100d 13%,#1b100d63 47%,transparent 66%),linear-gradient(90deg,#1b100d41,transparent)}
+.v8-hero-copy{position:absolute;left:6vw;bottom:85px;margin:0;width:88vw;max-width:520px}
+.v8-hero-copy h1{font-size:clamp(68px,16vw,96px);margin:14px 0}
+.v8-editorial-photo,.v8-story-photo{height:auto;min-height:790px;align-items:end;display:flex;padding-bottom:55px}
+.v8-editorial-photo>img,.v8-story-photo>img{top:80px;left:5%;right:5%;transform:none!important;width:90%;height:auto;max-height:360px;object-fit:contain}
+.v8-editorial-photo:hover>img,.v8-story-photo:hover>img{transform:none!important}
+.v8-editorial-photo .v8-photo-shade,.v8-story-photo .v8-story-shade{background:linear-gradient(0deg,#24140f 8%,#24140fd9 45%,transparent 73%)}
+.v8-section-copy,.v8-align-left,.v8-align-right{width:90%;margin:0 auto;text-align:left;padding:18px 0}
+.v8-section-copy h2{font-size:clamp(57px,12vw,80px)}
+.v8-section-copy p:not(.eyebrow),.v8-align-right p:not(.eyebrow){margin:0;max-width:96%}
+.v8-note-call-photo{height:335px}
+.v8-triple-scenes{grid-template-columns:1fr}
+.v8-scenes-tile{min-height:275px;height:300px;max-height:340px}
+.v8-scenes-tile img{object-fit:contain}
+.card-stage .bottle-img{max-height:74%!important}
+.card-stage .bottle-img.scaled-afgano{max-height:55%!important;max-width:58%!important}
+}
+@media(prefers-reduced-motion:reduce){.v8-hero-photo,.v8-editorial-photo>img,.v8-story-photo>img{transition:none!important}}

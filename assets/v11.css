@@ -1,0 +1,137 @@
+/* Lumo Parfum v11 — correct the user-reported visual regressions without redesigning the approved site. */
+
+/* 1 — Every cutout must remain entirely INSIDE its own card. The image is fitted
+   to a definite content rectangle; legacy rules that shrank Nasomatto separately
+   are intentionally cancelled. */
+.perfume-card,.perfume-card .card-stage{min-width:0!important}
+.card-stage,.perfume-card .card-stage{
+  position:relative;overflow:hidden!important;isolation:isolate;contain:paint;
+}
+.card-stage>a.product-visual{
+  position:relative!important;width:100%!important;height:100%!important;
+  display:flex!important;align-items:center!important;justify-content:center!important;
+  min-width:0!important;min-height:0!important;box-sizing:border-box!important;
+  padding:11% 12%!important;overflow:hidden!important;
+}
+.card-stage img.bottle-img,
+.card-stage img.bottle-img.scaled-afgano{
+  display:block!important;position:relative!important;
+  width:auto!important;height:auto!important;
+  max-width:100%!important;max-height:100%!important;
+  min-width:0!important;min-height:0!important;
+  object-fit:contain!important;object-position:center center!important;
+  flex:0 1 auto!important;margin:0!important;
+  mix-blend-mode:normal!important;
+  filter:drop-shadow(4px 15px 13px rgba(39,24,14,.21))!important;
+}
+.perfume-card:hover .card-stage .bottle-img{
+  transform:perspective(900px) translateY(-6px) rotateY(-3deg) scale(1.025)!important;
+}
+/* Keep the favorites / quick-action buttons above their image. */
+.card-stage .fav-button,.card-stage .card-quick{z-index:5}
+
+/* 2 — Gallery thumbnails used to grow their CSS grid content track to 700px!
+   Replace with a flexbox whose own width and height cannot expand. */
+.product-gallery,.product-gallery-thumbs,.product-visual,.product-photo-stage{min-width:0!important}
+.product-gallery-thumbs{align-items:center!important;overflow:hidden;flex-wrap:wrap;justify-content:center}
+.product-gallery-thumbs .v10-gallery-thumb{
+  display:flex!important;align-items:center!important;justify-content:center!important;
+  box-sizing:border-box!important;position:relative!important;
+  flex:0 0 86px!important;width:86px!important;height:96px!important;
+  min-width:0!important;min-height:0!important;
+  padding:8px!important;overflow:hidden!important;
+}
+.product-gallery-thumbs .v10-gallery-thumb img{
+  position:static!important;display:block!important;
+  width:100%!important;height:100%!important;
+  max-width:100%!important;max-height:100%!important;
+  min-width:0!important;min-height:0!important;
+  object-fit:contain!important;object-position:center!important;
+  margin:0!important;transform:none!important;
+  mix-blend-mode:normal!important;
+  filter:none!important;
+}
+.product-photo-stage,.product-gallery .product-photo-stage{
+  box-sizing:border-box;overflow:hidden!important;contain:paint;
+  min-width:0!important;padding:5% 7%!important;
+}
+.product-photo-stage .product-detail-bottle,
+.product-photo-stage .product-detail-bottle.scaled-afgano{
+  position:relative!important;display:block!important;
+  width:auto!important;height:auto!important;
+  max-width:100%!important;max-height:100%!important;
+  min-width:0!important;min-height:0!important;
+  object-fit:contain!important;object-position:center!important;
+  mix-blend-mode:normal!important;
+}
+
+/* 3 — Brand carousel and directory: all branded PNGs use the same fixed-canvas
+   preprocessing, so no extra Nasomatto scale penalties or giant overflow. */
+.brand-focus-image,#brand-focus-bottle{overflow:hidden!important;min-width:0!important}
+#brand-focus-bottle{height:100%!important;display:flex!important;align-items:center!important;justify-content:center!important}
+.brand-focus-image img.normalized-brand,.brand-focus-image img.scaled-afgano{
+  position:relative!important;display:block!important;
+  width:auto!important;height:400px!important;
+  max-height:76%!important;max-width:76%!important;
+  object-fit:contain!important;margin:auto!important;
+  transform:none;
+}
+.brand-directory-photo{display:flex;align-items:center;justify-content:center;overflow:hidden}
+.brand-directory-photo img.directory-bottle{display:block;width:auto!important;height:110px!important;max-width:86%!important;max-height:92%!important;object-fit:contain!important}
+
+/* 4 — The transition includes the EXACT brand associated with the destination. */
+.page-wipe .wipe-center{gap:10px}
+.wipe-selected-brand{
+  display:block;position:relative;text-transform:uppercase;
+  font:500 clamp(11px,1.15vw,15px)/1.35 var(--sans);
+  letter-spacing:.28em;color:#e5b790;text-align:center;
+  min-height:18px;margin-top:6px;
+}
+.page-wipe .wipe-center img{object-fit:contain!important;max-width:65vw!important}
+
+/* 5 — Distinct editorial photographs instead of the repeatedly reused
+   beige travertine/wood stage. Each caption is readable on its own photo. */
+.v8-feeling{background:#1d1111!important}
+.v8-feeling>img{
+  filter:brightness(.73) saturate(.91)!important;
+  object-position:center 52%!important;
+  width:100%!important;height:100%!important;max-height:none!important;
+}
+.v8-feeling .v8-photo-shade{
+  background:linear-gradient(270deg,rgba(21,10,12,.91) 0%,rgba(29,15,16,.66) 43%,rgba(23,11,12,.03) 100%)!important;
+}
+.about-hero-v7 .about-background{
+  background-image:url('premium-about.webp')!important;
+  background-position:center 52%!important;background-size:cover!important;
+  filter:brightness(.72) saturate(.91)!important;
+}
+.about-photo-bg{
+  background-image:url('premium-about-detail.webp')!important;
+  background-position:center 45%!important;background-size:cover!important;
+}
+.page-hero:not(.compact){
+  background-image:url('premium-directory.webp')!important;
+  background-position:center 53%!important;background-size:cover!important;
+}
+/* The black Toskovat bottle on the original photomontage was removed from
+   editorial-home and editorial-story source files, not covered up with HTML. */
+
+@media(max-width:900px){
+  .brand-focus-image img.normalized-brand,.brand-focus-image img.scaled-afgano{
+    height:315px!important;max-height:78%!important;max-width:77%!important;
+  }
+}
+@media(max-width:580px){
+  .card-stage>a.product-visual{padding:12% 13%!important}
+  .product-gallery-thumbs .v10-gallery-thumb{
+    width:74px!important;height:84px!important;flex-basis:74px!important;padding:7px!important;
+  }
+  .brand-focus-image img.normalized-brand,.brand-focus-image img.scaled-afgano{
+    height:255px!important;max-height:77%!important;max-width:75%!important;
+  }
+  .v8-feeling>img{object-position:42% center!important}
+  .v8-feeling .v8-photo-shade{
+    background:linear-gradient(90deg,rgba(23,11,11,.81) 0%,rgba(22,12,12,.63) 65%,rgba(22,12,12,.36))!important;
+  }
+  .wipe-selected-brand{font-size:12px}
+}

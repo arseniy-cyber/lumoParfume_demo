@@ -1,0 +1,188 @@
+/* LUMO PARFUM v13 — vintage letterforms, no clipped copy, custom brand monogram, mobile-first polish */
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Bona+Nova:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Marck+Script&family=Oranienbaum&family=Yeseva+One&display=swap');
+:root {
+ --lumo-script:'Marck Script','Bad Script','Segoe Script','URW Chancery L',cursive;
+ --lumo-antique:'Bona Nova','Oranienbaum',Georgia,'Times New Roman',serif;
+ --lumo-vintage:'Cormorant Garamond','Bona Nova',Georgia,serif;
+ --lumo-burgundy:#812d3b; --lumo-wine:#a74652; --lumo-ivory:#f0e1d2;
+}
+/* The completely redrawn monogram is a standalone intertwined LP, not a round medallion. */
+.header-inner .brand-logo{width:209px!important;min-width:0!important;max-width:28vw!important;min-height:64px!important;height:69px!important;margin-left:35px!important;overflow:visible!important}
+.header-inner .brand-logo .site-logo-img{max-height:65px!important;max-width:100%!important;object-fit:contain!important}
+.drawer-actual-logo{width:min(310px,69vw)!important;max-height:90px!important;object-fit:contain!important}
+.footer .footer-mark img{width:min(325px,100%)!important;max-height:110px!important}
+.page-wipe .wipe-center .wipe-company-logo{width:min(460px,84vw)!important;max-height:135px!important;object-fit:contain!important}
+/* Every heading owns ONE colour, including italic spans. Separate handwritten notes create the red accents. */
+#app h1,#app h2,#app h3,.footer-top h2{font-family:var(--lumo-vintage)!important;font-weight:400!important;font-synthesis:none;overflow-wrap:break-word;hyphens:auto;text-wrap:pretty}
+#app h1 i,#app h2 i,#app h3 i,.footer-top h2 i,
+.v8-hero-copy h1 i,.v8-editorial-photo h2 i,.v8-story-photo h2 i,
+.brand-focus-top h2 i,.about-photo-caption h2 i,.page-hero h1 i,
+.v8-notes-hero-copy h1 i,.about-content h1 i,.v8-note-call-text h2 i,
+.v8-selection-intro h2 i{
+ font-family:inherit!important;font-style:inherit!important;font-size:inherit!important;
+ font-weight:inherit!important;letter-spacing:inherit!important;line-height:inherit!important;
+ color:inherit!important;text-shadow:inherit!important;transform:none!important;
+ margin:0!important;white-space:normal!important;
+}
+.v8-hero-copy h1,.v8-editorial-photo h2,.v8-story-photo h2,.v8-notes-hero-copy h1,.about-content h1{color:#f7ecdf!important}
+.brand-focus-top h2{color:#773141!important}
+.v8-selection-intro h2,.about-editorial-grid h2{color:#602c38!important}
+.v8-note-call-text h2{color:#f4e3d4!important}
+.section-head h2,.product-summary h1,.brand-intro h2,.story-intro-v6 h2{color:#2f1e1c!important}
+.v8-hero-copy h1,.v8-section-copy h2{font-family:var(--lumo-vintage)!important}
+.brand-focus-top h2,.about-editorial-grid h2{font-family:var(--lumo-antique)!important}
+.brand-directory-row h2,.card-name,.brand-focus-text h3{font-family:var(--lumo-antique)!important}
+/* Emulate the Chicano / calligraphed vintage mood of the user's reference without bundling its restricted font. */
+.lumo-signature{display:block!important;position:relative!important;font-family:var(--lumo-script)!important;font-weight:400!important;font-style:normal!important;letter-spacing:0!important;
+ font-size:clamp(25px,3.0vw,43px)!important;line-height:1.4!important;text-wrap:pretty!important;white-space:normal!important;
+ text-shadow:0 5px 25px #0b040588!important;margin:18px 0 0!important;padding:0 6px!important;
+ max-width:100%!important;overflow:visible!important;transform:rotate(-3deg);transform-origin:30% 50%;
+ animation:lumo-signature-ink 1.7s cubic-bezier(.18,.83,.15,1) both;
+}
+.signature-hero{color:#f1c8c5!important;margin:14px auto 0!important;text-align:center;transform:rotate(-4deg)}
+.signature-feeling,.signature-story{color:#e8a4ab!important;transform:rotate(-4deg);margin-top:14px!important}
+.signature-about{color:#f2c0ca!important}
+@keyframes lumo-signature-ink{from{opacity:0;filter:blur(9px);letter-spacing:.06em}to{opacity:1;filter:blur(0);letter-spacing:0}}
+/* THE CLIPPING FIX: no hard clip-path masked reveal and enough room to reflow on any height. */
+.lumo-ink-heading{opacity:0!important;clip-path:none!important;overflow:visible!important;
+ transform:perspective(900px) rotateX(-10deg) translate3d(0,16px,0)!important;
+ transform-origin:30% 85%!important;filter:blur(4px)!important;
+ transition:opacity 1.15s cubic-bezier(.16,.7,.2,1),transform 1.35s cubic-bezier(.18,.8,.2,1),filter 1.25s ease!important;
+ transition-delay:var(--reveal-delay,0ms)!important;will-change:opacity,transform;
+}
+.lumo-ink-heading.is-written{opacity:1!important;clip-path:none!important;
+ transform:perspective(900px) rotateX(0) translate3d(0,0,0)!important;filter:none!important;
+}
+#app h1,#app h2,#app h3,#app p,.footer h2{overflow:visible!important;text-overflow:clip!important;max-height:none!important}
+.v8-hero,.v8-editorial-photo,.v8-story-photo,.v8-notes-hero,.about-hero-v7{height:auto!important;max-height:none!important;box-sizing:border-box!important;}
+.v8-hero{min-height:max(760px,97svh)!important;padding:108px 0 78px!important;align-items:center!important}
+.v8-hero-copy{box-sizing:border-box!important;max-width:min(880px,90vw)!important;width:min(90vw,880px)!important;margin:0 auto!important;padding:30px 18px!important;overflow:visible!important;}
+.v8-hero-copy h1{font-size:clamp(66px,8vw,123px)!important;line-height:1.04!important;letter-spacing:-.045em!important;margin:19px auto 23px!important;max-width:100%!important;white-space:normal!important}
+.v8-hero-copy p:not(.eyebrow){max-width:480px!important;margin-left:auto!important;margin-right:auto!important}
+.v8-hero-copy p.lumo-signature{margin:14px auto 0!important}
+.v8-hero-copy .v8-link{margin:25px auto 0!important}
+.v8-editorial-photo,.v8-story-photo{min-height:max(730px,96svh)!important;padding:115px 0 110px!important;align-items:center!important;overflow:hidden!important}
+.v8-section-copy,.v8-align-left,.v8-align-right{width:min(84%,760px)!important;max-width:760px!important;min-width:0!important;margin-left:8%!important;margin-right:auto!important;padding:20px 0!important;box-sizing:border-box!important}
+.v8-align-right{margin-left:auto!important;margin-right:7%!important}
+.v8-section-copy h2{font-size:clamp(54px,7.3vw,108px)!important;line-height:1.07!important;letter-spacing:-.036em!important;margin:21px 0 24px!important;max-width:100%!important;overflow-wrap:break-word!important}
+.v8-section-copy p:not(.eyebrow){max-width:470px!important}
+.v8-note-picker-call{height:auto!important;min-height:730px!important;padding:100px 7vw!important;align-items:center!important;box-sizing:border-box!important}
+.v8-note-call-text{width:100%!important;min-height:0!important;box-sizing:border-box!important}
+.v8-note-call-text h2{font-size:clamp(56px,5.7vw,89px)!important;line-height:1.08!important;letter-spacing:-.035em!important;margin:25px 0 25px!important}
+.v8-notes-hero{min-height:620px!important;padding:100px 20px!important;}
+.v8-notes-hero-copy h1{font-size:clamp(64px,8vw,126px)!important;line-height:1.08!important;overflow-wrap:break-word!important}
+.v8-selection-intro h2{font-size:clamp(54px,6.5vw,104px)!important;line-height:1.1!important}
+.about-hero-v7{min-height:730px!important;padding:135px 0 92px!important;align-items:center!important}
+.about-content h1{font-size:clamp(62px,8vw,115px)!important;line-height:1.08!important}
+.about-photo-block{min-height:620px!important;height:auto!important;padding:80px 0!important;box-sizing:border-box!important}
+.about-photo-caption h2{font-size:clamp(53px,7vw,110px)!important;line-height:1.08!important}
+.page-hero,.page-hero:not(.compact){height:auto!important;max-height:none!important;min-height:460px!important;padding-top:115px!important;padding-bottom:85px!important;box-sizing:border-box!important}
+.page-hero h1{font-size:clamp(55px,7vw,111px)!important;line-height:1.07!important;overflow-wrap:anywhere!important}
+.product-summary h1,.brand-focus-text h3,.story-intro-v6 h2,.brand-directory-row h2{line-height:1.12!important;overflow-wrap:anywhere!important}
+.product-summary{min-width:0!important}.product-main{min-width:0!important}
+.section-head,.about-editorial-grid,.brand-focus-content{min-width:0!important}
+.section-head h2,.brand-focus-top h2,.about-editorial-grid h2{line-height:1.1!important;overflow-wrap:break-word!important}
+.footer-top h2{line-height:1.1!important}
+/* Product illustrations keep their alpha and remain inside the card — no clipping by pseudo masking. */
+.card-stage,.card-stage>a.product-visual,.product-photo-stage,.v10-gallery-thumb{box-sizing:border-box!important}
+.card-stage>a.product-visual{max-height:100%!important;max-width:100%!important;overflow:hidden!important}
+.card-stage img.bottle-img{max-width:100%!important;max-height:100%!important;object-fit:contain!important}
+.product-detail-bottle{object-fit:contain!important;max-width:100%!important;max-height:100%!important}
+.product-gallery-thumbs .v10-gallery-thumb img{max-width:100%!important;max-height:100%!important;object-fit:contain!important}
+/* Desktop signature layout / accents: unusual placement with consistent full-colour phrases. */
+.v8-editorial-photo .v8-section-copy h2,.v8-story-photo .v8-section-copy h2{color:var(--lumo-ivory)!important}
+.v8-editorial-photo .v8-section-copy{margin-right:8%!important;margin-left:auto!important}
+.v8-story-photo .v8-section-copy{margin-left:7%!important;margin-right:auto!important}
+.brand-focus-top h2{font-size:clamp(62px,6.5vw,114px)!important;line-height:1.08!important}
+.brand-focus-text h3{font-size:clamp(57px,6vw,104px)!important;line-height:1.1!important}
+.brand-focus-top .eyebrow{color:#8e4f4c!important}
+.lumo-reverse-arrow{display:inline-flex;transform:rotate(180deg)}
+.lumo-reverse-arrow svg,.brand-focus-navigation button svg{width:21px;height:21px;display:block;fill:none;stroke:currentColor;stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round}
+.lumo-inline-arrow{display:inline-flex;transform:rotate(-90deg);vertical-align:middle}
+.lumo-inline-arrow svg{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:1.4}
+.lumo-close-icon{display:block;position:relative;width:23px;height:23px;margin:auto}
+.lumo-close-icon:before,.lumo-close-icon:after{content:'';position:absolute;left:10px;top:1px;width:1px;height:22px;background:currentColor;transform:rotate(45deg)}
+.lumo-close-icon:after{transform:rotate(-45deg)}
+.drawer-top .close-round,.search-close{display:grid!important;place-items:center!important;line-height:1!important}
+/* Make all control icons deterministic across Apple/Android/Windows without any emoji font dependency. */
+button svg,a svg{flex-shrink:0}
+@media(max-width:900px){
+ .header-inner .brand-logo{width:165px!important;max-width:50vw!important;min-height:53px!important;height:57px!important;margin:0!important;grid-column:2!important;justify-self:center!important}
+ .header-inner .brand-logo .site-logo-img{max-height:54px!important}
+ .v8-hero{min-height:max(730px,96svh)!important;padding:85px 0 60px!important}
+ .v8-hero-copy{width:90vw!important;max-width:90vw!important;margin:0 auto!important;padding:12px 8px!important}
+ .v8-hero-copy h1{font-size:clamp(52px,9.8vw,91px)!important;line-height:1.1!important}
+ .v8-editorial-photo,.v8-story-photo{min-height:740px!important;padding:115px 0 98px!important}
+ .v8-section-copy,.v8-align-left,.v8-align-right{width:86vw!important;margin-left:7vw!important;margin-right:7vw!important;padding:15px 0!important}
+ .v8-section-copy h2{font-size:clamp(55px,8.9vw,87px)!important;line-height:1.09!important}
+ .v8-note-picker-call{grid-template-columns:minmax(0,1fr)!important;padding:96px 6vw!important;min-height:690px!important}
+ .v8-note-call-text{grid-column:1!important;width:100%!important;max-width:700px!important;margin:0 auto!important;padding:40px 32px!important}
+ .v8-note-call-text h2{font-size:clamp(51px,8vw,75px)!important}
+ .about-hero-v7{min-height:680px!important}
+ .page-hero h1{font-size:clamp(52px,8vw,88px)!important}
+ .about-editorial-grid{grid-template-columns:1fr!important;gap:22px!important}
+ .lumo-signature{font-size:clamp(29px,5.6vw,42px)!important}
+}
+@media(max-width:580px){
+ .masthead{height:66px!important}.header-inner{padding-inline:13px!important}
+ .header-inner .brand-logo{width:136px!important;max-width:45vw!important;height:52px!important;min-height:50px!important}
+ .header-inner .brand-logo .site-logo-img{max-height:49px!important}
+ .header-actions{gap:10px!important}
+ .v8-hero{min-height:max(680px,100svh)!important;padding:95px 0 68px!important;overflow:hidden!important}
+ .v8-hero-copy{width:92vw!important;max-width:92vw!important;text-align:center!important;margin:0 auto!important;padding:5px 4px!important}
+ .v8-hero-copy h1{font-size:clamp(46px,12vw,73px)!important;line-height:1.13!important;letter-spacing:-.045em!important;margin:17px auto 18px!important}
+ .v8-hero-copy p:not(.eyebrow){font-size:14px!important;line-height:1.65!important;max-width:300px!important}
+ .v8-hero-copy .v8-link{max-width:100%;white-space:normal!important;box-sizing:border-box;justify-content:center!important}
+ .v8-editorial-photo,.v8-story-photo{min-height:710px!important;height:auto!important;padding:115px 0 105px!important}
+ .v8-section-copy,.v8-align-right,.v8-align-left{width:88vw!important;margin:0 6vw!important;box-sizing:border-box!important;padding:12px 0!important}
+ .v8-section-copy h2{font-size:clamp(45px,11.0vw,68px)!important;line-height:1.13!important;letter-spacing:-.035em!important;overflow-wrap:break-word!important;max-width:100%!important;margin:15px 0 20px!important}
+ .v8-section-copy p:not(.eyebrow){font-size:15px!important;line-height:1.6!important;max-width:100%!important}
+ .lumo-signature{font-size:clamp(27px,7vw,34px)!important;line-height:1.35!important;margin:11px 0!important;}
+ .v8-note-picker-call{padding:80px 4vw!important;min-height:650px!important}
+ .v8-note-call-text{width:100%!important;min-height:0!important;padding:32px 22px!important;box-sizing:border-box}
+ .v8-note-call-text h2{font-size:clamp(43px,11.1vw,65px)!important;line-height:1.12!important;margin:19px 0!important}
+ .v8-note-call-text>p:not(.eyebrow){font-size:15px!important;line-height:1.6!important}
+ .v8-note-call-text .v8-link{max-width:100%;white-space:normal!important;box-sizing:border-box;line-height:1.4!important}
+ .v8-notes-hero{min-height:650px!important;height:auto!important;padding:118px 18px 80px!important}
+ .v8-notes-hero-copy h1{font-size:clamp(47px,11.7vw,69px)!important;line-height:1.14!important}
+ .v8-selection-intro h2{font-size:clamp(45px,11.5vw,68px)!important;line-height:1.13!important}
+ .about-hero-v7{min-height:700px!important;height:auto!important;padding:130px 0 88px!important}
+ .about-content{max-width:90vw!important;box-sizing:border-box!important}
+ .about-content h1{font-size:clamp(46px,11.6vw,70px)!important;line-height:1.1!important}
+ .about-photo-block{min-height:615px!important;height:auto!important;padding:90px 0!important}
+ .about-photo-caption h2{font-size:clamp(49px,11vw,71px)!important;line-height:1.12!important}
+ .page-hero:not(.compact){min-height:410px!important;padding:120px 0 60px!important}
+ .page-hero h1{font-size:clamp(48px,11vw,75px)!important;line-height:1.12!important}
+ .brand-focus-top h2,.section-head h2,.about-editorial-grid h2{font-size:clamp(45px,11vw,65px)!important;line-height:1.12!important}
+ .brand-focus-text h3{font-size:clamp(43px,10vw,67px)!important;line-height:1.12!important}
+ .product-summary h1{font-size:clamp(42px,9.3vw,62px)!important;line-height:1.15!important}
+ .footer-top h2{font-size:clamp(39px,10vw,59px)!important;line-height:1.12!important}
+ .page-wipe .wipe-center .wipe-company-logo{width:min(350px,86vw)!important;max-height:112px!important}
+ .page-wipe .wipe-center #wipe-perfume{height:min(32svh,250px)!important;max-height:250px!important}
+ .card-name{overflow-wrap:break-word!important}
+}
+@media(max-width:365px){
+ .header-actions{gap:5px!important}
+ .header-inner .brand-logo{width:122px!important}
+ .v8-hero-copy h1{font-size:44px!important}
+ .v8-section-copy h2{font-size:43px!important}
+ .v8-note-call-text h2{font-size:42px!important}
+ .v8-notes-hero-copy h1,.about-content h1{font-size:45px!important}
+}
+@media(prefers-reduced-motion:reduce){.lumo-ink-heading,.lumo-ink-heading.is-written,.reveal,.reveal.visible{opacity:1!important;filter:none!important;transform:none!important;clip-path:none!important;transition:none!important}.lumo-signature{animation:none!important;transform:none!important}}
+
+/* SVG glyphs eliminate platform emoji rendering across mobile controls. */
+.lumo-up-right,.lumo-check{width:15px;height:15px;display:inline-block;vertical-align:middle;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.lumo-check-svg{display:inline-flex;align-items:center}
+#v8-clear-notes .lumo-close-icon{width:16px;height:16px;display:inline-block;vertical-align:middle;margin-left:8px}
+#v8-clear-notes .lumo-close-icon:before,#v8-clear-notes .lumo-close-icon:after{height:15px;left:8px;top:0}
+
+.brand-focus-top h2,.brand-directory-row h2,.v8-scenes-tile span{font-family:'Yeseva One',var(--lumo-antique)!important}
+/* On narrow screens preserve the clear Toskovat Anarchist on the right of the editorial scene. */
+@media(max-width:580px){
+  .v8-story-photo>img{object-position:94% center!important}
+  .v8-story-photo .v8-story-shade{background:linear-gradient(90deg,rgba(16,7,8,.84) 0%,rgba(16,8,9,.69) 74%,rgba(16,8,9,.35) 100%)!important}
+}
+@media(max-width:580px){
+  .v8-story-photo{align-items:flex-start!important;padding-top:145px!important;padding-bottom:105px!important}
+}

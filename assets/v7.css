@@ -1,0 +1,104 @@
+/* Lumo Parfum v7: photographic editorial direction. Genuine user-supplied packshot cutouts
+   are composited into fixed photographs. Do not overlay generated bottles as HTML elements. */
+:root{--night:#19110d;--espresso:#241914;--dusk:#30221c;--cream:#f1e7da;--tan:#d6b18b;--ink:#281d16}
+html{scroll-behavior:auto!important}
+body{background:var(--cream)}
+body::selection{background:#bc9070;color:#fff}
+.reveal{opacity:0;transform:translate3d(0,42px,0);filter:blur(4px);transition:opacity .96s cubic-bezier(.23,.66,.2,1),transform 1.06s cubic-bezier(.17,.71,.18,1),filter 1.02s ease;will-change:opacity,transform}
+.reveal.visible{opacity:1;transform:translate3d(0,0,0);filter:blur(0)}
+/* navigation: LUMO left of centered main links */
+.masthead{height:88px;z-index:90;background:linear-gradient(180deg,#150f0b55,transparent)}
+.masthead.scrolled{background:#1b130fec!important;box-shadow:0 9px 36px #11090523}
+.header-inner{grid-template-columns:minmax(210px,1fr) minmax(330px,1.55fr) minmax(150px,1fr);gap:14px;padding:0 4.4vw}
+.header-inner .brand-logo{grid-column:1;grid-row:1;justify-self:start;margin-left:68px;font-size:34px}
+.header-inner .menu-toggle{grid-column:1;grid-row:1;justify-self:start}
+.header-inner .header-links{grid-column:2;grid-row:1;display:flex;justify-content:center;gap:38px;margin:0}
+.header-links a{font:400 13px var(--serif);letter-spacing:.12em;color:#f5e6d4;transition:color .4s,transform .4s}
+.header-links a:hover{transform:translateY(-2px);color:#e2bc8e}
+.header-inner .header-actions{grid-column:3;grid-row:1}
+/* elegant darkened menu */
+.drawer{background:#2c211b;color:#f0e1d0;box-shadow:24px 0 80px #07040150}
+.drawer-link{color:#f1e2d5;border-bottom:1px solid #987c643b;padding:13px 3px;transition:padding-left .38s,color .38s,letter-spacing .38s}
+.drawer-link:hover,.drawer-link.current{color:#d8b185;padding-left:16px;letter-spacing:.015em}
+.drawer-link .drawer-arrow{color:#e0b583}
+.drawer-wordmark{color:#f9eddd}.drawer-bottom{color:#bb9d86;border-color:#ab947a55}
+.drawer-visual .eyebrow{color:#ddc3a8}.drawer-visual .menu-preview-bottle{mix-blend-mode:normal;filter:drop-shadow(0 25px 35px #0805038f)}
+.drawer .close-round{border-color:#e0c8ac75;color:#f8e6d0;transform-origin:center!important;display:grid;place-items:center!important;line-height:1!important}
+.drawer .close-round:hover{background:#ecd8c2;color:#302017}
+.drawer .close-round:before,.drawer .close-round:after{width:19px;left:50%;top:50%}
+/* hero: single finished photograph, not separate overlaid bottles */
+.hero-v7{min-height:730px;height:100svh;max-height:1050px;position:relative;isolation:isolate;background:#1c0f0a;overflow:hidden}
+.hero-photo-v7{position:absolute;inset:0;background:url('hero-v7.webp') center 52%/cover no-repeat;z-index:-2}
+.hero-v7-veil{position:absolute;inset:0;background:linear-gradient(90deg,#120c08a8 0%,#160b0670 22%,transparent 54%),linear-gradient(0deg,#1c100c50,transparent 28%);z-index:-1}
+.hero-v7-inner{color:#fff2e3;position:absolute;left:7.4vw;top:45%;transform:translateY(-30%);width:37%;max-width:520px}
+.hero-v7-inner.reveal.visible{transform:translateY(-30%)}
+.hero-v7-inner .eyebrow{color:#e3b88f;letter-spacing:.24em;font-size:10px}
+.hero-v7-inner h1{font:400 clamp(100px,10vw,185px)/.70 var(--serif);letter-spacing:-.065em;margin:32px 0 48px;white-space:nowrap}
+.hero-v7-inner h1 i{font:400 clamp(100px,10.5vw,205px)/.42 var(--script);letter-spacing:-.018em;display:inline-block;color:#f1cda8;transform:rotate(-7deg) translateY(11px);margin:0 0 0 37px}
+.hero-v7-inner>p:not(.eyebrow){max-width:330px;color:#e4d0bd;line-height:1.9;font:16px/1.8 var(--serif);letter-spacing:.01em;margin:0 0 23px}
+.hero-v7-action,.line-action-v7{display:inline-flex;align-items:center;gap:28px;min-height:43px;font:11px var(--sans);text-transform:uppercase;letter-spacing:.14em;transition:color .4s,gap .4s;position:relative}
+.hero-v7-action{color:#f6e6d4;padding:9px 20px;border:1px solid #e8ceae85;background:#100a0730}
+.hero-v7-action:hover{background:#f1dfc7;color:#1d100c;gap:41px}.hero-v7-action span svg,.line-action-v7 svg{width:21px}
+.line-action-v7{color:#4b3628;border-bottom:1px solid #68503e70;padding:6px 0}.line-action-v7:hover{gap:42px;color:#987151}.line-action-v7.light{color:#f6e7d3;border-color:#e9d3bc9c}
+/* immersive photosections with unique baked-in product photography */
+.scene-section{position:relative;display:flex;align-items:center;min-height:83svh;isolation:isolate;background:#1f160f;overflow:hidden;color:#fff5e5}
+.scene-photo{position:absolute;inset:0;z-index:-3;background-position:center;background-size:cover;transform:scale(1.035);transition:transform 2.3s cubic-bezier(.17,.84,.2,1)}
+.scene-section:hover .scene-photo{transform:scale(1.002)}
+.scene-veil{position:absolute;inset:0;z-index:-2}.scene-veil-right{background:linear-gradient(90deg,#180b072b 10%,#160d08d5 100%)}.scene-veil-left{background:linear-gradient(90deg,#150a08db 0%,#150b095a 55%,transparent)}
+.scene-content{width:min(630px,45%);position:relative;margin:0 7.6vw}
+.manifest-v7{justify-content:flex-end}.manifest-v7 .scene-content{margin:0 8vw 0 auto;text-align:right}.manifest-v7 .scene-content p:not(.eyebrow){margin-left:auto}
+.scene-content h2{font:400 clamp(73px,7.2vw,133px)/.87 var(--serif);letter-spacing:-.055em;margin:22px 0}.scene-content h2 i{font:400 1.08em var(--script);color:#edc49b;white-space:nowrap}
+.scene-content>p:not(.eyebrow){max-width:395px;font:15px/1.9 var(--serif);color:#e9d7c5}
+.memory-v7{min-height:82svh}
+/* editorial selection: ONE photo, cleaner content, no extra fake hero buttons */
+.editorial-picks-v7{background:#f4ede5;padding-top:105px}
+.picks-editorial-v7{display:grid;grid-template-columns:1.2fr 1fr;gap:6vw;align-items:start}
+.picks-editorial-photo{min-height:620px;position:relative;display:block;overflow:hidden;background:#32251c}
+.picks-editorial-photo img{width:100%;height:100%;position:absolute;inset:0;object-fit:cover;transform:scale(1.01);transition:transform 1.5s cubic-bezier(.16,.74,.22,1)}.picks-editorial-photo:hover img{transform:scale(1.06)}
+.picks-editorial-photo:after{content:'';inset:0;position:absolute;background:linear-gradient(0deg,#110905bb,transparent 64%)}
+.picks-editorial-photo>div{z-index:2;color:#f9e6d0;position:absolute;bottom:7%;left:7%}.picks-editorial-photo h3{font:400 clamp(65px,6vw,100px)/.83 var(--serif);margin:15px 0}.picks-editorial-photo h3 em{font:400 1.28em/.6 var(--script);color:#e7c69f}
+.picks-editorial-copy{padding:6.8vw 0 0}.picks-editorial-copy>p:not(.eyebrow){font:23px/1.52 var(--serif);color:#746256;max-width:460px;margin:20px 0 20px}
+.picks-mini-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:45px}.picks-mini-grid .perfume-card .card-stage{aspect-ratio:1/1.1}.picks-mini-grid .card-name{font-size:25px}
+/* focus brands: one at a time, with arrows */
+.brand-focus-v7{background:#e7dccc;color:#2b1e16;padding-top:118px;padding-bottom:90px}
+.brand-focus-top{text-align:center;margin-bottom:10px}.brand-focus-top h2{font:400 clamp(65px,7vw,120px)/.85 var(--serif);letter-spacing:-.04em;margin:18px 0}.brand-focus-top h2 i{font-family:var(--script);color:#a67d60}
+.brand-focus-content{display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:5vw;min-height:590px;max-width:1240px;margin:auto}.brand-focus-text{padding-left:4%}.brand-focus-counter{font:16px var(--serif);letter-spacing:.2em;color:#937862}.brand-focus-counter span:first-child{font-size:34px;color:#35261c}
+.brand-focus-text h3{font:400 clamp(60px,6.3vw,105px)/.9 var(--serif);max-width:650px;margin:28px 0}.brand-focus-text p{color:#756151;font:18px/1.8 var(--serif);max-width:570px;min-height:90px}
+.brand-focus-image{height:550px;display:grid;place-items:center;position:relative;background:radial-gradient(ellipse at 50% 65%,#dfc7ab99,transparent 64%)}.brand-focus-image:before{content:'';position:absolute;bottom:13%;left:24%;right:24%;height:38px;border-radius:100%;filter:blur(21px);background:#503b2770}
+.brand-focus-image img{position:relative;max-height:76%;height:100%;width:80%;object-fit:contain;filter:drop-shadow(12px 18px 21px #2413055c)}
+.brand-focus-navigation{display:flex;align-items:center;justify-content:flex-end;gap:28px;max-width:1250px;margin:-20px auto 0;border-top:1px solid #8b745f70;padding-top:25px;color:#65503d;font:12px var(--serif);letter-spacing:.1em}
+.brand-focus-navigation button{width:47px;height:47px;border:1px solid #917965;border-radius:50%;background:transparent;color:#4b3728;font-size:21px;cursor:pointer;transition:.3s}.brand-focus-navigation button:hover{background:#38271d;color:#fff}.brand-focus-navigation>a{margin-left:auto;text-transform:uppercase;font:10px var(--sans)}.brand-focus-navigation svg{width:20px}
+/* photographic notes section */
+.notes-feature-v7{min-height:80svh;background:#1c130e;display:grid;place-items:center;position:relative;text-align:center;color:#fff}
+.notes-feature-v7 .notes-wall{position:absolute;inset:0;background:url('notes-v7.webp') center/cover!important;filter:brightness(.8)}
+.notes-feature-v7:after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,#1a100fd9 0%,#1a0f0b70 52%,#0a050422);pointer-events:none}
+.notes-feature-v7 .notes-feature-text{position:relative;z-index:2;width:74%;margin-right:20%;max-width:790px}.notes-feature-v7 h2{font-size:clamp(63px,7vw,120px)}
+.notes-feature-v7 .notes-feature-text>p:not(.eyebrow){font:16px/1.85 var(--serif);max-width:520px;margin:22px auto}
+/* Product story: long visual prose with no ugly 3-photo collage */
+.story-section-v6{grid-template-columns:minmax(0,1.35fr) minmax(250px,.65fr);gap:6vw;min-height:560px;background:#241913}
+.story-intro-v6 h2{font-size:clamp(55px,5vw,95px);line-height:.95}.story-intro-v6>p:not(.eyebrow){max-width:760px;font-size:17px;line-height:1.95}
+.story-aside-v7{border-left:1px solid #c8ae8b5e;padding:25px 2vw 25px 5vw;display:flex;flex-direction:column;justify-content:center;gap:30px;min-height:380px}
+.story-aside-v7 p{font:italic 30px/1.48 var(--serif);color:#ecd5ba}.story-aside-v7 span{font:11px var(--sans);letter-spacing:.26em;color:#b79a79}
+/* content detail */
+.product-gallery .product-photo-stage{background:#e8dccd!important}.perfume-card .card-stage{background:#ece3d6!important}
+.product-detail-bottle,.card-stage .bottle-img,.focus-bottle{mix-blend-mode:normal}
+.img-transparent{mix-blend-mode:normal!important}
+.menu-preview-bottle{mix-blend-mode:normal!important}
+.pyramid-note-card .pyramid-values{font:400 clamp(26px,2.4vw,39px)/1.08 var(--serif)}
+/* distinct photo for sections */
+.selection-hero-v7{background-image:url('selection-v7.webp')!important;background-position:center 46%}
+.about-hero-v7 .about-background{background-image:url('about-v7.webp')!important;filter:brightness(.88)}
+.about-photo-bg{background-image:url('memory-v7.webp')!important;background-position:center!important}
+.page-hero{background-image:url('interior-v7.webp')}
+/* compact end-of-page, not another full-screen */
+.footer{padding:60px 5vw 18px;background:#231912}
+.footer-top{grid-template-columns:.9fr 1.1fr;gap:3vw;margin-bottom:56px}
+.footer-top h2{font:400 clamp(45px,5vw,76px)/.9 var(--serif);margin:0;grid-row:2/4}
+.footer-top>p:not(.eyebrow){font-size:12px;line-height:1.7;margin-top:0}
+.footer-mid{padding:28px 0;gap:25px}.footer-mark{font-size:44px}.footer-legal{font-size:9px;gap:10px}
+/* wider fly geometry and reduced motion */
+.flying-bottle{transform-origin:center!important;will-change:transform,opacity;isolation:isolate}
+@media(max-width:1120px){.header-inner .header-links{gap:18px}.header-links a{font-size:12px}.header-inner .brand-logo{margin-left:50px}.hero-v7-inner{left:6%;width:43%}.picks-editorial-photo{min-height:500px}.brand-focus-content{min-height:490px}}
+@media(max-width:850px){.header-inner{grid-template-columns:1fr 1fr 1fr;padding:0 24px}.header-inner .brand-logo{grid-column:2;justify-self:center;margin:0}.header-inner .header-links{display:none}.header-inner .header-actions{grid-column:3}.hero-v7{height:91svh;min-height:690px}.hero-v7-inner{width:75%;top:34%;left:7%;transform:none}.hero-v7-inner.reveal.visible{transform:none}.hero-photo-v7{background-position:66% center}.hero-v7-veil{background:linear-gradient(180deg,#100905ad 0%,#180d0969 47%,#1a0f095a 100%)}.hero-v7-inner h1{font-size:clamp(90px,14vw,130px)}.hero-v7-inner h1 i{font-size:1.05em}.scene-content{width:min(570px,76%)}.picks-editorial-v7{grid-template-columns:1fr;gap:35px}.picks-editorial-photo{height:530px}.picks-editorial-copy{padding:0}.brand-focus-content{grid-template-columns:1fr 1fr;gap:0}.brand-focus-image{height:470px}.brand-focus-text h3{font-size:68px}.notes-feature-v7 .notes-feature-text{margin:0;width:86%}.story-section-v6{grid-template-columns:1fr;min-height:0}.story-aside-v7{min-height:190px}.footer-top{grid-template-columns:1fr}.footer-top h2,.footer-top>p:not(.eyebrow),.newsletter{grid-column:1;grid-row:auto}}
+@media(max-width:580px){.masthead{height:69px}.header-inner{padding:0 17px}.header-inner .brand-logo{font-size:28px}.hero-v7{min-height:690px;height:89svh}.hero-photo-v7{background-position:66% 45%}.hero-v7-inner{top:19%;left:22px;width:85%}.hero-v7-inner h1{font-size:clamp(70px,18vw,90px);margin:24px 0 38px}.hero-v7-inner h1 i{margin-left:12px}.hero-v7-inner>p:not(.eyebrow){font-size:13px;max-width:240px}.hero-v7-action{font-size:10px}.scene-section{min-height:680px}.scene-photo{background-position:59% center}.scene-content,.manifest-v7 .scene-content{width:90%;margin:0 auto;text-align:left}.manifest-v7 .scene-content{align-self:start;margin-top:90px}.manifest-v7 .scene-content p:not(.eyebrow){margin-left:0}.scene-veil-right{background:linear-gradient(180deg,#0d0907d1,#160a0660 66%,#160a063d)}.scene-veil-left{background:linear-gradient(180deg,#160a0abf,#160a0670 72%,transparent)}.scene-content h2{font-size:clamp(54px,12vw,80px)}.scene-content>p:not(.eyebrow){font-size:13px;max-width:300px}.editorial-picks-v7{padding-top:75px}.picks-editorial-photo{height:440px;min-height:0}.picks-editorial-photo h3{font-size:68px}.picks-editorial-copy>p:not(.eyebrow){font-size:20px}.picks-mini-grid{gap:10px}.brand-focus-v7{padding-top:75px;padding-bottom:60px}.brand-focus-top h2{font-size:55px}.brand-focus-content{grid-template-columns:1fr;gap:0}.brand-focus-image{height:300px;grid-row:1}.brand-focus-image img{max-height:85%}.brand-focus-text{padding:0 0 20px}.brand-focus-text h3{font-size:59px;margin:10px 0}.brand-focus-text p{font-size:15px;min-height:0}.brand-focus-navigation{margin-top:10px;gap:12px}.brand-focus-navigation>a{font-size:9px}.notes-feature-v7{min-height:690px}.notes-feature-v7 .notes-wall{background-position:70% center!important}.notes-feature-v7 .notes-feature-text{width:92%;margin:0}.notes-feature-v7 h2{font-size:55px}.story-section-v6{padding:65px 24px}.story-intro-v6 h2{font-size:60px}.story-aside-v7{padding:25px 0 25px 20px}.story-aside-v7 p{font-size:22px}.footer{padding:45px 22px 18px}.footer-top{margin-bottom:38px}.footer-top h2{font-size:53px}.footer-mid{padding:25px 0}.footer-mark{font-size:40px}}
+@media(prefers-reduced-motion:reduce){.reveal,.scene-photo,.picks-editorial-photo img{transition:none!important;transform:none!important;opacity:1!important;filter:none!important}}
